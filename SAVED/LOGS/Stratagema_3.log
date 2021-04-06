@@ -1,0 +1,1561 @@
+﻿Log file open, 03/23/17 07:26:45
+LogInit:Display: Running engine for game: Stratagema
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(306758971) SRandInit(306758971).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.097812
+LogPluginManager: Loaded Plugin Paper2D, From D:/Programs/UE4/Epic Games/4.14/Engine/Plugins/2D/Paper2D/Paper2D.uplugin
+LogPluginManager: Loaded Plugin LightPropagationVolume, From D:/Programs/UE4/Epic Games/4.14/Engine/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin
+LogPluginManager: Loaded Plugin BlankPlugin, From D:/Programs/UE4/Epic Games/4.14/Engine/Plugins/Developer/BlankPlugin/BlankPlugin.uplugin
+LogPluginManager: Loaded Plugin CodeLiteSourceCodeAccess, From D:/Programs/UE4/Epic Games/4.14/Engine/Plugins/Developer/CodeLiteSourceCodeAccess/CodeLiteSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin GitSourceControl, From D:/Programs/UE4/Epic Games/4.14/Engine/Plugins/Developer/GitSourceControl/GitSourceControl.uplugin
+LogPluginManager: Loaded Plugin KDevelopSourceCodeAccess, From D:/Programs/UE4/Epic Games/4.14/Engine/Plugins/Developer/KDevelopSourceCodeAccess/KDevelopSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin NullSourceCodeAccess, From D:/Programs/UE4/Epic Games/4.14/Engine/Plugins/Developer/NullSourceCodeAccess/NullSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin OneSkyLocalizationService, From D:/Programs/UE4/Epic Games/4.14/Engine/Plugins/Developer/OneSkyLocalizationService/OneSkyLocalizationService.uplugin
+LogPluginManager: Loaded Plugin PerforceSourceControl, From D:/Programs/UE4/Epic Games/4.14/Engine/Plugins/Developer/PerforceSourceControl/PerforceSourceControl.uplugin
+LogPluginManager: Loaded Plugin SubversionSourceControl, From D:/Programs/UE4/Epic Games/4.14/Engine/Plugins/Developer/SubversionSourceControl/SubversionSourceControl.uplugin
+LogPluginManager: Loaded Plugin UObjectPlugin, From D:/Programs/UE4/Epic Games/4.14/Engine/Plugins/Developer/UObjectPlugin/UObjectPlugin.uplugin
+LogPluginManager: Loaded Plugin VisualStudioSourceCodeAccess, From D:/Programs/UE4/Epic Games/4.14/Engine/Plugins/Developer/VisualStudioSourceCodeAccess/VisualStudioSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin XCodeSourceCodeAccess, From D:/Programs/UE4/Epic Games/4.14/Engine/Plugins/Developer/XCodeSourceCodeAccess/XCodeSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin AudioCapture, From D:/Programs/UE4/Epic Games/4.14/Engine/Plugins/Editor/AudioCapture/AudioCapture.uplugin
+LogPluginManager: Loaded Plugin EpicSurvey, From D:/Programs/UE4/Epic Games/4.14/Engine/Plugins/Editor/EpicSurvey/EpicSurvey.uplugin
+LogPluginManager: Loaded Plugin MacGraphicsSwitching, From D:/Programs/UE4/Epic Games/4.14/Engine/Plugins/Editor/MacGraphicsSwitching/MacGraphicsSwitching.uplugin
+LogPluginManager: Loaded Plugin MobileLauncherProfileWizard, From D:/Programs/UE4/Epic Games/4.14/Engine/Plugins/Editor/MobileLauncherProfileWizard/MobileLauncherProfileWizard.uplugin
+LogPluginManager: Loaded Plugin PluginBrowser, From D:/Programs/UE4/Epic Games/4.14/Engine/Plugins/Editor/PluginBrowser/PluginBrowser.uplugin
+LogPluginManager: Loaded Plugin SpeedTreeImporter, From D:/Programs/UE4/Epic Games/4.14/Engine/Plugins/Editor/SpeedTreeImporter/SpeedTreeImporter.uplugin
+LogPluginManager: Loaded Plugin SuperSearchEditor, From D:/Programs/UE4/Epic Games/4.14/Engine/Plugins/Editor/SuperSearchEditor/SuperSearchEditor.uplugin
+LogPluginManager: Loaded Plugin AlembicImporter, From D:/Programs/UE4/Epic Games/4.14/Engine/Plugins/Experimental/AlembicImporter/AlembicImporter.uplugin
+LogPluginManager: Loaded Plugin BlueprintStats, From D:/Programs/UE4/Epic Games/4.14/Engine/Plugins/Experimental/BlueprintStats/BlueprintStats.uplugin
+LogPluginManager: Loaded Plugin CharacterAI, From D:/Programs/UE4/Epic Games/4.14/Engine/Plugins/Experimental/CharacterAI/CharacterAI.uplugin
+LogPluginManager: Loaded Plugin CodeEditor, From D:/Programs/UE4/Epic Games/4.14/Engine/Plugins/Experimental/CodeEditor/CodeEditor.uplugin
+LogPluginManager: Loaded Plugin CodeView, From D:/Programs/UE4/Epic Games/4.14/Engine/Plugins/Experimental/CodeView/CodeView.uplugin
+LogPluginManager: Loaded Plugin HTML5Networking, From D:/Programs/UE4/Epic Games/4.14/Engine/Plugins/Experimental/HTML5Networking/HTML5Networking.uplugin
+LogPluginManager: Loaded Plugin OSVR, From D:/Programs/UE4/Epic Games/4.14/Engine/Plugins/Experimental/OSVR/OSVR.uplugin
+LogPluginManager: Loaded Plugin Phya, From D:/Programs/UE4/Epic Games/4.14/Engine/Plugins/Experimental/Phya/Phya.uplugin
+LogPluginManager: Loaded Plugin SignificanceManager, From D:/Programs/UE4/Epic Games/4.14/Engine/Plugins/Experimental/SignificanceManager/SignificanceManager.uplugin
+LogPluginManager: Loaded Plugin SimpleHMD, From D:/Programs/UE4/Epic Games/4.14/Engine/Plugins/Experimental/SimpleHMD/SimpleHMD.uplugin
+LogPluginManager: Loaded Plugin StereoPanorama, From D:/Programs/UE4/Epic Games/4.14/Engine/Plugins/Experimental/StereoPanorama/StereoPanorama.uplugin
+LogPluginManager: Loaded Plugin StructBox, From D:/Programs/UE4/Epic Games/4.14/Engine/Plugins/Experimental/StructBox/StructBox.uplugin
+LogPluginManager: Loaded Plugin AndroidMedia, From D:/Programs/UE4/Epic Games/4.14/Engine/Plugins/Media/AndroidMedia/AndroidMedia.uplugin
+LogPluginManager: Loaded Plugin AvfMedia, From D:/Programs/UE4/Epic Games/4.14/Engine/Plugins/Media/AvfMedia/AvfMedia.uplugin
+LogPluginManager: Loaded Plugin MediaPlayerEditor, From D:/Programs/UE4/Epic Games/4.14/Engine/Plugins/Media/MediaPlayerEditor/MediaPlayerEditor.uplugin
+LogPluginManager: Loaded Plugin WmfMedia, From D:/Programs/UE4/Epic Games/4.14/Engine/Plugins/Media/WmfMedia/WmfMedia.uplugin
+LogPluginManager: Loaded Plugin MessagingDebugger, From D:/Programs/UE4/Epic Games/4.14/Engine/Plugins/Messaging/MessagingDebugger/MessagingDebugger.uplugin
+LogPluginManager: Loaded Plugin TcpMessaging, From D:/Programs/UE4/Epic Games/4.14/Engine/Plugins/Messaging/TcpMessaging/TcpMessaging.uplugin
+LogPluginManager: Loaded Plugin UdpMessaging, From D:/Programs/UE4/Epic Games/4.14/Engine/Plugins/Messaging/UdpMessaging/UdpMessaging.uplugin
+LogPluginManager: Loaded Plugin LevelSequenceEditor, From D:/Programs/UE4/Epic Games/4.14/Engine/Plugins/MovieScene/LevelSequenceEditor/LevelSequenceEditor.uplugin
+LogPluginManager: Loaded Plugin MatineeToLevelSequence, From D:/Programs/UE4/Epic Games/4.14/Engine/Plugins/MovieScene/MatineeToLevelSequence/MatineeToLevelSequence.uplugin
+LogPluginManager: Loaded Plugin NetcodeUnitTest, From D:/Programs/UE4/Epic Games/4.14/Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/NetcodeUnitTest.uplugin
+LogPluginManager: Loaded Plugin NUTUnrealEngine4, From D:/Programs/UE4/Epic Games/4.14/Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/NUTUnrealEngine4.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGameCircle, From D:/Programs/UE4/Epic Games/4.14/Engine/Plugins/Online/Android/OnlineSubsystemGameCircle/OnlineSubsystemGameCircle.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGooglePlay, From D:/Programs/UE4/Epic Games/4.14/Engine/Plugins/Online/Android/OnlineSubsystemGooglePlay/OnlineSubsystemGooglePlay.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemIOS, From D:/Programs/UE4/Epic Games/4.14/Engine/Plugins/Online/IOS/OnlineSubsystemIOS/OnlineSubsystemIOS.uplugin
+LogPluginManager: Loaded Plugin OnlineFramework, From D:/Programs/UE4/Epic Games/4.14/Engine/Plugins/Online/OnlineFramework/OnlineFramework.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystem, From D:/Programs/UE4/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystem/OnlineSubsystem.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemAmazon, From D:/Programs/UE4/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemAmazon/OnlineSubsystemAmazon.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemFacebook, From D:/Programs/UE4/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemFacebook/OnlineSubsystemFacebook.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemNull, From D:/Programs/UE4/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemNull/OnlineSubsystemNull.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemOculus, From D:/Programs/UE4/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemOculus/OnlineSubsystemOculus.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemSteam, From D:/Programs/UE4/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemSteam/OnlineSubsystemSteam.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemUtils, From D:/Programs/UE4/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemUtils/OnlineSubsystemUtils.uplugin
+LogPluginManager: Loaded Plugin IOSTapJoy, From D:/Programs/UE4/Epic Games/4.14/Engine/Plugins/Runtime/Advertising/IOSTapJoy/IOSTapJoy.uplugin
+LogPluginManager: Loaded Plugin AnalyticsBlueprintLibrary, From D:/Programs/UE4/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/AnalyticsBlueprintLibrary/AnalyticsBlueprintLibrary.uplugin
+LogPluginManager: Loaded Plugin AnalyticsMulticast, From D:/Programs/UE4/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/AnalyticsMulticast/AnalyticsMulticast.uplugin
+LogPluginManager: Loaded Plugin Apsalar, From D:/Programs/UE4/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/Apsalar/Apsalar.uplugin
+LogPluginManager: Loaded Plugin FileLogging, From D:/Programs/UE4/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/FileLogging/FileLogging.uplugin
+LogPluginManager: Loaded Plugin Flurry, From D:/Programs/UE4/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/Flurry/Flurry.uplugin
+LogPluginManager: Loaded Plugin AndroidDeviceProfileSelector, From D:/Programs/UE4/Epic Games/4.14/Engine/Plugins/Runtime/AndroidDeviceProfileSelector/AndroidDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin AndroidMoviePlayer, From D:/Programs/UE4/Epic Games/4.14/Engine/Plugins/Runtime/AndroidMoviePlayer/AndroidMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin AppleMoviePlayer, From D:/Programs/UE4/Epic Games/4.14/Engine/Plugins/Runtime/AppleMoviePlayer/AppleMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ArchVisCharacter, From D:/Programs/UE4/Epic Games/4.14/Engine/Plugins/Runtime/ArchVisCharacter/ArchVisCharacter.uplugin
+LogPluginManager: Loaded Plugin CableComponent, From D:/Programs/UE4/Epic Games/4.14/Engine/Plugins/Runtime/CableComponent/CableComponent.uplugin
+LogPluginManager: Loaded Plugin CustomMeshComponent, From D:/Programs/UE4/Epic Games/4.14/Engine/Plugins/Runtime/CustomMeshComponent/CustomMeshComponent.uplugin
+LogPluginManager: Loaded Plugin ExampleDeviceProfileSelector, From D:/Programs/UE4/Epic Games/4.14/Engine/Plugins/Runtime/ExampleDeviceProfileSelector/ExampleDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin GearVR, From D:/Programs/UE4/Epic Games/4.14/Engine/Plugins/Runtime/GearVR/GearVR.uplugin
+LogPluginManager: Loaded Plugin GoogleVRController, From D:/Programs/UE4/Epic Games/4.14/Engine/Plugins/Runtime/GoogleVR/GoogleVRController/GoogleVRController.uplugin
+LogPluginManager: Loaded Plugin GoogleVRHMD, From D:/Programs/UE4/Epic Games/4.14/Engine/Plugins/Runtime/GoogleVR/GoogleVRHMD/GoogleVRHMD.uplugin
+LogPluginManager: Loaded Plugin IOSDeviceProfileSelector, From D:/Programs/UE4/Epic Games/4.14/Engine/Plugins/Runtime/IOSDeviceProfileSelector/IOSDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin LeapMotion, From D:/Programs/UE4/Epic Games/4.14/Engine/Plugins/Runtime/LeapMotion/LeapMotion.uplugin
+LogPluginManager: Loaded Plugin LinuxDeviceProfileSelector, From D:/Programs/UE4/Epic Games/4.14/Engine/Plugins/Runtime/LinuxDeviceProfileSelector/LinuxDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin MIDIDevice, From D:/Programs/UE4/Epic Games/4.14/Engine/Plugins/Runtime/MIDIDevice/MIDIDevice.uplugin
+LogPluginManager: Loaded Plugin MobilePatchingUtils, From D:/Programs/UE4/Epic Games/4.14/Engine/Plugins/Runtime/MobilePatchingUtils/MobilePatchingUtils.uplugin
+LogPluginManager: Loaded Plugin Ansel, From D:/Programs/UE4/Epic Games/4.14/Engine/Plugins/Runtime/Nvidia/Ansel/Ansel.uplugin
+LogPluginManager: Loaded Plugin OculusAudio, From D:/Programs/UE4/Epic Games/4.14/Engine/Plugins/Runtime/OculusAudio/OculusAudio.uplugin
+LogPluginManager: Loaded Plugin OculusInput, From D:/Programs/UE4/Epic Games/4.14/Engine/Plugins/Runtime/OculusInput/OculusInput.uplugin
+LogPluginManager: Loaded Plugin OculusLibrary, From D:/Programs/UE4/Epic Games/4.14/Engine/Plugins/Runtime/OculusLibrary/OculusLibrary.uplugin
+LogPluginManager: Loaded Plugin OculusRift, From D:/Programs/UE4/Epic Games/4.14/Engine/Plugins/Runtime/OculusRift/OculusRift.uplugin
+LogPluginManager: Loaded Plugin Oodle, From D:/Programs/UE4/Epic Games/4.14/Engine/Plugins/Runtime/PacketHandlers/CompressionComponents/Oodle/Oodle.uplugin
+LogPluginManager: Loaded Plugin ProceduralMeshComponent, From D:/Programs/UE4/Epic Games/4.14/Engine/Plugins/Runtime/ProceduralMeshComponent/ProceduralMeshComponent.uplugin
+LogPluginManager: Loaded Plugin SoundMod, From D:/Programs/UE4/Epic Games/4.14/Engine/Plugins/Runtime/SoundMod/SoundMod.uplugin
+LogPluginManager: Loaded Plugin SoundVisualizations, From D:/Programs/UE4/Epic Games/4.14/Engine/Plugins/Runtime/SoundVisualizations/SoundVisualizations.uplugin
+LogPluginManager: Loaded Plugin SteamController, From D:/Programs/UE4/Epic Games/4.14/Engine/Plugins/Runtime/Steam/SteamController/SteamController.uplugin
+LogPluginManager: Loaded Plugin SteamVR, From D:/Programs/UE4/Epic Games/4.14/Engine/Plugins/Runtime/Steam/SteamVR/SteamVR.uplugin
+LogPluginManager: Loaded Plugin WebBrowserWidget, From D:/Programs/UE4/Epic Games/4.14/Engine/Plugins/Runtime/WebBrowserWidget/WebBrowserWidget.uplugin
+LogPluginManager: Loaded Plugin WindowsDeviceProfileSelector, From D:/Programs/UE4/Epic Games/4.14/Engine/Plugins/Runtime/WindowsDeviceProfileSelector/WindowsDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin WindowsMoviePlayer, From D:/Programs/UE4/Epic Games/4.14/Engine/Plugins/Runtime/WindowsMoviePlayer/WindowsMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ScriptPlugin, From D:/Programs/UE4/Epic Games/4.14/Engine/Plugins/ScriptPlugin/ScriptPlugin.uplugin
+LogPluginManager: Loaded Plugin SlateRemote, From D:/Programs/UE4/Epic Games/4.14/Engine/Plugins/Slate/SlateRemote/SlateRemote.uplugin
+LogPluginManager: Loaded Plugin EditorTests, From D:/Programs/UE4/Epic Games/4.14/Engine/Plugins/Tests/EditorTests/EditorTests.uplugin
+LogPluginManager: Loaded Plugin FbxAutomationTestBuilder, From D:/Programs/UE4/Epic Games/4.14/Engine/Plugins/Tests/FbxAutomationTestBuilder/FbxAutomationTestBuilder.uplugin
+LogPluginManager: Loaded Plugin FunctionalTestingEditor, From D:/Programs/UE4/Epic Games/4.14/Engine/Plugins/Tests/FunctionalTestingEditor/FunctionalTestingEditor.uplugin
+LogPluginManager: Loaded Plugin RuntimeTests, From D:/Programs/UE4/Epic Games/4.14/Engine/Plugins/Tests/RuntimeTests/RuntimeTests.uplugin
+LogPluginManager: Loaded Plugin ScreenshotTools, From D:/Programs/UE4/Epic Games/4.14/Engine/Plugins/Tests/ScreenshotTools/ScreenshotTools.uplugin
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogModuleManager:Warning: No filename provided for module OnlineSubsystemSteam
+LogModuleManager:Warning: ModuleManager: Unable to load module 'OnlineSubsystemSteam' because the file 'D:/Programs/UE4/Epic Games/4.14/Engine/Binaries/Win64/' was not found.
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.14-CL-3249277
+LogInit: Engine Version: 4.14.3-3249277+++UE4+Release-4.14
+LogInit: Compatible Engine Version: 4.14.0-3195953+++UE4+Release-4.14
+LogInit: Net CL: 3195953
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 7
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 8
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 17
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 1
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Jan  6 2017 10:49:43
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.14
+LogInit: Command line:  /Temp/Autosaves/Game/Maps/UEDPCMainMenu -game -PIEVIACONSOLE -ResX=1280 -ResY=800  -Multiprocess -messaging -SessionName="Play in Standalone Game" -windowed 
+LogInit: Base directory: D:/Programs/UE4/Epic Games/4.14/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.03.23-07.26.45:701][  0]LogInit: Selected Device Profile: [Windows]
+[2017.03.23-07.26.45:701][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.03.23-07.26.45:707][  0]LogInit: Computer: WORK
+[2017.03.23-07.26.45:707][  0]LogInit: User: SpencerRossAustin
+[2017.03.23-07.26.45:707][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.03.23-07.26.45:707][  0]LogInit: High frequency timer resolution =3.897818 MHz
+[2017.03.23-07.26.45:707][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2017.03.23-07.26.45:707][  0]LogMemory: Platform Memory Stats for Windows
+[2017.03.23-07.26.45:707][  0]LogMemory: Process Physical Memory: 265.50 MB used, 265.50 MB peak
+[2017.03.23-07.26.45:707][  0]LogMemory: Process Virtual Memory: 263.10 MB used, 263.10 MB peak
+[2017.03.23-07.26.45:707][  0]LogMemory: Physical Memory: 9550.02 MB used,  6791.67 MB free, 16341.69 MB total
+[2017.03.23-07.26.45:707][  0]LogMemory: Virtual Memory: 664.52 MB used,  6791.67 MB free, 134217728.00 MB total
+[2017.03.23-07.26.45:742][  0]LogTextLocalizationManager: No specific translations for ('en-GB') exist, so ('en') translations will be used.
+[2017.03.23-07.26.46:293][  0]LogD3D11RHI: D3D11 adapters:
+[2017.03.23-07.26.46:334][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 550 Ti' (Feature Level 11_0)
+[2017.03.23-07.26.46:334][  0]LogD3D11RHI:       978/0/8170 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.03.23-07.26.46:369][  0]LogD3D11RHI:    1. 'NVIDIA GeForce GTX 550 Ti' (Feature Level 11_0)
+[2017.03.23-07.26.46:369][  0]LogD3D11RHI:       978/0/8170 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.03.23-07.26.46:371][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.03.23-07.26.46:371][  0]LogD3D11RHI:       0/0/8170 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.03.23-07.26.46:371][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.03.23-07.26.46:379][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.03.23-07.26.46:379][  0]LogD3D11RHI:     GPU DeviceId: 0x1244 (for the marketing name, search the web for "GPU Device Id")
+[2017.03.23-07.26.46:379][  0]LogWindows: EnumDisplayDevices:
+[2017.03.23-07.26.46:379][  0]LogWindows:    0. 'NVIDIA GeForce GTX 550 Ti' (P:1 D:1)
+[2017.03.23-07.26.46:380][  0]LogWindows:    1. 'NVIDIA GeForce GTX 550 Ti' (P:0 D:1)
+[2017.03.23-07.26.46:380][  0]LogWindows:    2. 'NVIDIA GeForce GTX 550 Ti' (P:0 D:1)
+[2017.03.23-07.26.46:380][  0]LogWindows:    3. 'NVIDIA GeForce GTX 550 Ti' (P:0 D:1)
+[2017.03.23-07.26.46:380][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.03.23-07.26.46:380][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 550 Ti
+[2017.03.23-07.26.46:380][  0]LogD3D11RHI:   Driver Version: 378.66 (internal:21.21.13.7866, unified:378.66)
+[2017.03.23-07.26.46:380][  0]LogD3D11RHI:      Driver Date: 2-9-2017
+[2017.03.23-07.26.46:380][  0]LogRHI: Texture pool is 684 MB (70% of 978 MB)
+[2017.03.23-07.26.46:399][  0]LogD3D11RHI:Warning: Timestamp queries are currently disabled on this hardware due to instability. Realtime GPU stats will not be available. You can override this behaviour by setting r.NVIDIATimestampWorkaround to 0
+[2017.03.23-07.26.46:399][  0]LogD3D11RHI: Async texture creation enabled
+[2017.03.23-07.26.46:410][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.03.23-07.26.46:411][  0]LogShaderCompilers: Guid format shader working directory is 14 characters bigger than the processId version (../../../../../../../Backup/Games/Stratagema2/Intermediate/Shaders/WorkingDirectory/16324/).
+[2017.03.23-07.26.46:412][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Spencer Ross Austin/AppData/Local/Temp/UnrealShaderWorkingDir/5EE420314A4599DBD317BDB86A7AFDA1/'.
+[2017.03.23-07.26.46:412][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.03.23-07.26.47:823][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.03.23-07.26.47:896][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.03.23-07.26.47:965][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.03.23-07.26.48:020][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.03.23-07.26.48:020][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.03.23-07.26.48:520][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.03.23-07.26.48:610][  0]LogDerivedDataCache: Loaded boot cache 0.09s 50MB C:/Users/Spencer Ross Austin/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2017.03.23-07.26.48:610][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Spencer Ross Austin/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc
+[2017.03.23-07.26.48:610][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../../Backup/Games/Stratagema2/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.03.23-07.26.48:610][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.03.23-07.26.48:610][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../../Backup/Games/Stratagema2/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.03.23-07.26.48:610][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.03.23-07.26.48:632][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.03.23-07.26.48:645][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Spencer Ross Austin/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.03.23-07.26.48:919][  0]LogAssetRegistry: FAssetRegistry took 0.0001 seconds to start up
+[2017.03.23-07.26.48:925][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.005803 seconds
+[2017.03.23-07.26.48:946][  0]LogInit: Selected Device Profile: [Windows]
+[2017.03.23-07.26.48:948][  0]LogContentStreaming: Texture pool size is 1000.00 MB
+[2017.03.23-07.26.49:187][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.03.23-07.26.49:241][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.03.23-07.26.49:297][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.03.23-07.26.49:297][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.03.23-07.26.49:297][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.03.23-07.26.49:888][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3195953, ProjectName: stratagema, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 3245294509
+[2017.03.23-07.26.50:839][  0]LogSlate: Using Freetype 2.6.0
+[2017.03.23-07.26.50:840][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.03.23-07.26.50:840][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.03.23-07.26.50:993][  0]LogMoviePlayer: Initializing movie player
+[2017.03.23-07.26.51:084][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.03.23-07.26.51:104][  0]LogWindowsMoviePlayer: Unable to load movie: ../../../../../../../Backup/Games/Stratagema2/Content/Movies/Default_Startup.mp4
+[2017.03.23-07.26.51:295][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.03.23-07.26.51:342][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.03.23-07.26.51:528][  0]SourceControl: Info Source control is disabled
+[2017.03.23-07.26.51:528][  0]SourceControl: Info Source control is disabled
+[2017.03.23-07.26.51:584][  0]SourceControl: Info Source control is disabled
+[2017.03.23-07.26.52:366][  0]LogUObjectArray: 33496 objects as part of root set at end of initial load.
+[2017.03.23-07.26.52:366][  0]LogUObjectAllocator: 7417776 out of 0 bytes used by permanent object pool.
+[2017.03.23-07.26.52:366][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.03.23-07.26.52:489][  0]LogEngine: Initializing Engine...
+[2017.03.23-07.26.52:490][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.03.23-07.26.52:634][  0]LogInit: XAudio2 using 'LG TV-14 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.03.23-07.26.52:650][  0]LogInit: FAudioDevice initialized.
+[2017.03.23-07.26.52:675][  0]LogInit: Texture streaming: Enabled
+[2017.03.23-07.26.52:692][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.03.23-07.26.53:111][  0]LogProperty:Error: UStructProperty::Serialize Loading: Property 'StructProperty /Game/Widgets/MainMenu/OptionsMenu.OptionsMenu_C:PlayerInformation'. Unknown structure.
+[2017.03.23-07.26.53:112][  0]LogProperty:Error: UStructProperty::Serialize Loading: Property 'StructProperty /Game/Blueprints/AllLevels/StratagemaSaveGame.StratagemaSaveGame_C:S_PlayerInfo'. Unknown structure.
+[2017.03.23-07.26.53:113][  0]LogClass:Warning: Property S_PlayerInfo of S_PlayerInfo has a struct type mismatch (tag STRUCT_REINST_StratagemaPlayerInfo_6 != prop FallbackStruct) in package:  ../../../../../../../Backup/Games/Stratagema2/Content/Blueprints/AllLevels/StratagemaSaveGame.uasset. If that struct got renamed, add an entry to ActiveStructRedirects.
+[2017.03.23-07.26.53:114][  0]LogClass:Warning: Property S_PlayerInfo of S_PlayerInfo has a struct type mismatch (tag FallbackStruct != prop StratagemaPlayerInfo) in package:  FObjectReader. If that struct got renamed, add an entry to ActiveStructRedirects.
+[2017.03.23-07.26.53:266][  0]LogClass:Warning: Property PlayerInformation of PlayerInformation has a struct type mismatch (tag STRUCT_REINST_StratagemaPlayerInfo_6 != prop FallbackStruct) in package:  ../../../../../../../Backup/Games/Stratagema2/Content/Widgets/MainMenu/OptionsMenu.uasset. If that struct got renamed, add an entry to ActiveStructRedirects.
+[2017.03.23-07.26.53:365][  0]LogClass:Warning: Property PlayerInformation of PlayerInformation has a struct type mismatch (tag FallbackStruct != prop StratagemaPlayerInfo) in package:  FObjectReader. If that struct got renamed, add an entry to ActiveStructRedirects.
+[2017.03.23-07.26.53:435][  0]LogProperty:Error: UStructProperty::Serialize Loading: Property 'StructProperty /Game/Blueprints/GamePlay/StratagemaPlayerController.StratagemaPlayerController_C:LevelSettings'. Unknown structure.
+[2017.03.23-07.26.53:488][  0]LogProperty:Error: UStructProperty::Serialize Loading: Property 'StructProperty /Game/Widgets/Lobby/LobbyMenu.LobbyMenu_C:UpdatePlayerWindow.IncomingPlayerInfo'. Unknown structure.
+[2017.03.23-07.26.53:488][  0]LogProperty:Error: UStructProperty::Serialize Loading: Property 'StructProperty /Game/Widgets/Lobby/LobbyMenu.LobbyMenu_C:ExecuteUbergraph_LobbyMenu.K2Node_CustomEvent_IncomingPlayerInfo'. Unknown structure.
+[2017.03.23-07.26.53:491][  0]LogProperty:Error: UStructProperty::Serialize Loading: Property 'StructProperty /Game/Widgets/Lobby/ConnectedPlayer.ConnectedPlayer_C:PlayerInformation'. Unknown structure.
+[2017.03.23-07.26.53:491][  0]LogClass:Warning: Property PlayerInformation of PlayerInformation has a struct type mismatch (tag STRUCT_REINST_StratagemaPlayerInfo_6 != prop FallbackStruct) in package:  ../../../../../../../Backup/Games/Stratagema2/Content/Widgets/Lobby/ConnectedPlayer.uasset. If that struct got renamed, add an entry to ActiveStructRedirects.
+[2017.03.23-07.26.53:502][  0]LogClass:Warning: Property PlayerInformation of PlayerInformation has a struct type mismatch (tag FallbackStruct != prop StratagemaPlayerInfo) in package:  FObjectReader. If that struct got renamed, add an entry to ActiveStructRedirects.
+[2017.03.23-07.26.53:515][  0]LogProperty:Error: UStructProperty::Serialize Loading: Property 'StructProperty /Game/Widgets/Lobby/PlayerButton.PlayerButton_C:PlayerInfo'. Unknown structure.
+[2017.03.23-07.26.53:516][  0]LogClass:Warning: Property PlayerInfo of PlayerInfo has a struct type mismatch (tag STRUCT_REINST_StratagemaPlayerInfo_6 != prop FallbackStruct) in package:  ../../../../../../../Backup/Games/Stratagema2/Content/Widgets/Lobby/PlayerButton.uasset. If that struct got renamed, add an entry to ActiveStructRedirects.
+[2017.03.23-07.26.53:526][  0]LogClass:Warning: Property PlayerInfo of PlayerInfo has a struct type mismatch (tag FallbackStruct != prop StratagemaPlayerInfo) in package:  FObjectReader. If that struct got renamed, add an entry to ActiveStructRedirects.
+[2017.03.23-07.26.53:675][  0]LogBlueprint:Warning: [GameSettings] 'Node/PathArray' variable not found. Base class was probably changed.
+[2017.03.23-07.26.53:676][  0]LogBlueprint:Warning: [GameSettings] 'Node/PathArray' variable not found. Base class was probably changed.
+[2017.03.23-07.26.54:196][  0]LogBlueprint:Warning: [GameOverWB] 'Player1Score' variable not found. Base class was probably changed.
+[2017.03.23-07.26.54:196][  0]LogBlueprint:Warning: [GameOverWB] 'Player2Score' variable not found. Base class was probably changed.
+[2017.03.23-07.26.54:196][  0]LogBlueprint:Warning: [GameOverWB] 'Player3Score' variable not found. Base class was probably changed.
+[2017.03.23-07.26.54:397][  0]LogClass:Warning: Property LevelSettings of LevelSettings has a struct type mismatch (tag STRUCT_REINST_StratagemaLevelInfo_6 != prop FallbackStruct) in package:  ../../../../../../../Backup/Games/Stratagema2/Content/Blueprints/GamePlay/StratagemaPlayerController.uasset. If that struct got renamed, add an entry to ActiveStructRedirects.
+[2017.03.23-07.26.54:434][  0]LogClass:Warning: Property LevelSettings of LevelSettings has a struct type mismatch (tag FallbackStruct != prop StratagemaLevelInfo) in package:  FObjectReader. If that struct got renamed, add an entry to ActiveStructRedirects.
+[2017.03.23-07.26.55:094][  0]LogBlueprint:Warning: [GameOverWB] 'Player1Score' variable not found. Base class was probably changed.
+[2017.03.23-07.26.55:094][  0]LogBlueprint:Warning: [GameOverWB] 'Player2Score' variable not found. Base class was probably changed.
+[2017.03.23-07.26.55:094][  0]LogBlueprint:Warning: [GameOverWB] 'Player3Score' variable not found. Base class was probably changed.
+[2017.03.23-07.26.55:315][  0]LogInit:Display: Game Engine Initialized.
+[2017.03.23-07.26.55:505][  0]LogInit:Display: Starting Game.
+[2017.03.23-07.26.55:505][  0]LogNet: Browse: /Temp/Autosaves/Game/Maps/UEDPCMainMenu?Name=Player
+[2017.03.23-07.26.55:505][  0]LogLoad: LoadMap: /Temp/Autosaves/Game/Maps/UEDPCMainMenu?Name=Player
+[2017.03.23-07.26.55:599][  0]LogMemory: Platform Memory Stats for Windows
+[2017.03.23-07.26.55:599][  0]LogMemory: Process Physical Memory: 725.12 MB used, 725.12 MB peak
+[2017.03.23-07.26.55:599][  0]LogMemory: Process Virtual Memory: 782.89 MB used, 782.89 MB peak
+[2017.03.23-07.26.55:599][  0]LogMemory: Physical Memory: 9934.99 MB used,  6406.70 MB free, 16341.69 MB total
+[2017.03.23-07.26.55:599][  0]LogMemory: Virtual Memory: 1396.93 MB used,  6406.70 MB free, 134217728.00 MB total
+[2017.03.23-07.26.55:599][  0]LogMemory: 
+[2017.03.23-07.26.55:599][  0]Allocator Stats for TBB: (not implemented)
+[2017.03.23-07.26.55:772][  0]LogAIModule: Creating AISystem for world MainMenu
+[2017.03.23-07.26.55:772][  0]LogLoad: Game class is 'GameModeBase'
+[2017.03.23-07.26.55:774][  0]LogWorld: Bringing World /Temp/Autosaves/Game/Maps/UEDPCMainMenu.MainMenu up for play (max tick rate 0) at 2017.03.23-07.26.55
+[2017.03.23-07.26.55:775][  0]LogWorld: Bringing up level for play took: 0.000593
+[2017.03.23-07.26.55:806][  0]LogLoad: Took 0.300655 seconds to LoadMap(/Temp/Autosaves/Game/Maps/UEDPCMainMenu)
+[2017.03.23-07.26.56:194][  0]LogLoad: (Engine Initialization) Total time: 12.47 seconds
+[2017.03.23-07.26.56:194][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 1.36 seconds
+[2017.03.23-07.26.56:194][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.03.23-07.26.56:194][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.03.23-07.26.56:211][  0]LogOcInput: OculusInput pre-init called
+[2017.03.23-07.26.56:341][  2]LogRenderer: Reallocating scene render targets to support 1068x856 NumSamples 1 (Frame:2).
+[2017.03.23-07.27.23:357][561]LogNetVersion: GetLocalNetworkVersion: CL: 3195953, ProjectName: stratagema, ProjectVersion: 1.0.0.0, EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 613680725
+[2017.03.23-07.27.23:360][561]LogInit: WinSock: I am Work (192.168.1.112:0)
+[2017.03.23-07.27.24:488][561]LogPackageName: SearchForPackageOnDisk took   0.094s to resolve Lobby.umap.
+[2017.03.23-07.27.24:578][561]LogPackageName: SearchForPackageOnDisk took   0.087s to resolve Lobby.umap.
+[2017.03.23-07.27.24:578][561]LogNet: Browse: /Game/Maps/Lobby?Listen
+[2017.03.23-07.27.24:578][561]LogLoad: LoadMap: /Game/Maps/Lobby?Listen
+[2017.03.23-07.27.24:609][561]LogMemory: Platform Memory Stats for Windows
+[2017.03.23-07.27.24:609][561]LogMemory: Process Physical Memory: 755.96 MB used, 760.60 MB peak
+[2017.03.23-07.27.24:609][561]LogMemory: Process Virtual Memory: 910.61 MB used, 914.00 MB peak
+[2017.03.23-07.27.24:609][561]LogMemory: Physical Memory: 9947.61 MB used,  6394.08 MB free, 16341.69 MB total
+[2017.03.23-07.27.24:609][561]LogMemory: Virtual Memory: 1519.89 MB used,  6394.08 MB free, 134217728.00 MB total
+[2017.03.23-07.27.24:609][561]LogMemory: 
+[2017.03.23-07.27.24:609][561]Allocator Stats for TBB: (not implemented)
+[2017.03.23-07.27.24:619][561]LogAIModule: Creating AISystem for world Lobby
+[2017.03.23-07.27.24:619][561]LogLoad: Game class is 'LobbyGameMode_C'
+[2017.03.23-07.27.24:620][561]LogInit: WinSock: Socket queue 131072 / 131072
+[2017.03.23-07.27.24:620][561]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.03.23-07.27.24:620][561]LogNet: GameNetDriver IpNetDriver_0 IpNetDriver listening on port 7777
+[2017.03.23-07.27.24:622][561]LogWorld: Bringing World /Game/Maps/Lobby.Lobby up for play (max tick rate 0) at 2017.03.23-07.27.24
+[2017.03.23-07.27.24:623][561]LogWorld: Bringing up level for play took: 0.001039
+[2017.03.23-07.27.24:623][561]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.03.23-07.27.24:625][561]LogScriptCore:Warning: Script Msg: Attempted to access index 1 from array CallFunc_GetAllActorsOfClass_OutActors2 of length 1!
+[2017.03.23-07.27.24:625][561]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array CallFunc_GetAllActorsOfClass_OutActors2 of length 1!
+[2017.03.23-07.27.24:625][561]LogScriptCore:Warning: Script Msg: Attempted to access index 1 from array PlayerArray of length 1!
+[2017.03.23-07.27.24:625][561]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item10
+	LobbyGameMode_C /Game/Maps/Lobby.Lobby:PersistentLevel.LobbyGameMode_C_0
+	Function /Game/Blueprints/Lobby/LobbyGameMode.LobbyGameMode_C:ExecuteUbergraph_LobbyGameMode:0997
+[2017.03.23-07.27.24:625][561]LogScript:Warning: Script call stack:
+	Function /Game/Blueprints/Lobby/LobbyGameMode.LobbyGameMode_C:K2_PostLogin
+	Function /Game/Blueprints/Lobby/LobbyGameMode.LobbyGameMode_C:ExecuteUbergraph_LobbyGameMode
+	Function /Game/Blueprints/Lobby/LobbyPlayerController.LobbyPlayerController_C:InitialSetup
+	Function /Game/Blueprints/Lobby/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController
+	Function /Game/Blueprints/Lobby/LobbyPlayerController.LobbyPlayerController_C:CallUpdate
+	Function /Game/Blueprints/Lobby/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController
+	Function /Game/Blueprints/Lobby/LobbyGameMode.LobbyGameMode_C:SwapPawn
+	Function /Game/Blueprints/Lobby/LobbyGameMode.LobbyGameMode_C:ExecuteUbergraph_LobbyGameMode
+
+[2017.03.23-07.27.24:625][561]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 1!
+[2017.03.23-07.27.24:625][561]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item9
+	LobbyGameMode_C /Game/Maps/Lobby.Lobby:PersistentLevel.LobbyGameMode_C_0
+	Function /Game/Blueprints/Lobby/LobbyGameMode.LobbyGameMode_C:ExecuteUbergraph_LobbyGameMode:0A40
+[2017.03.23-07.27.24:625][561]LogScript:Warning: Script call stack:
+	Function /Game/Blueprints/Lobby/LobbyGameMode.LobbyGameMode_C:K2_PostLogin
+	Function /Game/Blueprints/Lobby/LobbyGameMode.LobbyGameMode_C:ExecuteUbergraph_LobbyGameMode
+	Function /Game/Blueprints/Lobby/LobbyPlayerController.LobbyPlayerController_C:InitialSetup
+	Function /Game/Blueprints/Lobby/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController
+	Function /Game/Blueprints/Lobby/LobbyPlayerController.LobbyPlayerController_C:CallUpdate
+	Function /Game/Blueprints/Lobby/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController
+	Function /Game/Blueprints/Lobby/LobbyGameMode.LobbyGameMode_C:SwapPawn
+	Function /Game/Blueprints/Lobby/LobbyGameMode.LobbyGameMode_C:ExecuteUbergraph_LobbyGameMode
+
+[2017.03.23-07.27.24:635][561]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.03.23-07.27.24:635][561]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.03.23-07.27.24:635][561]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.03.23-07.27.24:635][561]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.03.23-07.27.24:636][561]LogLoad: Took 0.057868 seconds to LoadMap(/Game/Maps/Lobby)
+[2017.03.23-07.28.38:547][141]LogHandshake: SendConnectChallenge. Timestamp: 75.203491, Cookie: 205230131107119045147187133178166129116184249117231089085186
+[2017.03.23-07.28.38:579][143]LogNet: Server accepting post-challenge connection from: 192.168.1.10:58762
+[2017.03.23-07.28.38:579][143]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2017.03.23-07.28.38:579][143]LogNet: NotifyAcceptedConnection: Name: Lobby, TimeStamp: 03/23/17 07:28:38, [UNetConnection] RemoteAddr: 192.168.1.10:58762, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL
+[2017.03.23-07.28.38:579][143]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 192.168.1.10:58762, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL
+[2017.03.23-07.28.38:789][156]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Maps/Lobby.Lobby: Accepted
+[2017.03.23-07.28.38:789][156]LogNet: Remote platform little endian=1
+[2017.03.23-07.28.38:789][156]LogNet: This platform little endian=1
+[2017.03.23-07.28.38:805][157]LogNet: Login request: /Game/Maps/MainMenu?Name=Games-EB84EF4547EE57FFE674F592B662EBA1 userId: Games-EB84EF4547EE57FFE674F592B662EBA1
+[2017.03.23-07.28.38:837][159]LogNet: Client netspeed is 10000
+[2017.03.23-07.28.38:885][162]LogNet: Join request: /Game/Maps/MainMenu?Name=Games-EB84EF4547EE57FFE674F592B662EBA1?SplitscreenCount=1
+[2017.03.23-07.28.38:886][162]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.03.23-07.28.38:887][162]LogNet: Join succeeded: Games-EB84EF4547EE57
+[2017.03.23-07.28.38:982][168]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array CallFunc_GetAllActorsOfClass_OutActors2 of length 2!
+[2017.03.23-07.28.38:982][168]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.28.38:982][168]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item9
+	LobbyGameMode_C /Game/Maps/Lobby.Lobby:PersistentLevel.LobbyGameMode_C_0
+	Function /Game/Blueprints/Lobby/LobbyGameMode.LobbyGameMode_C:ExecuteUbergraph_LobbyGameMode:0A40
+[2017.03.23-07.28.38:982][168]LogScript:Warning: Script call stack:
+	Function /Game/Blueprints/Lobby/LobbyPlayerController.LobbyPlayerController_C:CallUpdate
+	Function /Game/Blueprints/Lobby/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController
+	Function /Game/Blueprints/Lobby/LobbyGameMode.LobbyGameMode_C:SwapPawn
+	Function /Game/Blueprints/Lobby/LobbyGameMode.LobbyGameMode_C:ExecuteUbergraph_LobbyGameMode
+
+[2017.03.23-07.28.38:982][168]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.28.38:982][168]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item9
+	LobbyGameMode_C /Game/Maps/Lobby.Lobby:PersistentLevel.LobbyGameMode_C_0
+	Function /Game/Blueprints/Lobby/LobbyGameMode.LobbyGameMode_C:ExecuteUbergraph_LobbyGameMode:0A40
+[2017.03.23-07.28.38:982][168]LogScript:Warning: Script call stack:
+	Function /Game/Blueprints/Lobby/LobbyPlayerController.LobbyPlayerController_C:CallUpdate
+	Function /Game/Blueprints/Lobby/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController
+	Function /Game/Blueprints/Lobby/LobbyGameMode.LobbyGameMode_C:SwapPawn
+	Function /Game/Blueprints/Lobby/LobbyGameMode.LobbyGameMode_C:ExecuteUbergraph_LobbyGameMode
+
+[2017.03.23-07.28.38:984][168]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array AvailablePawns of length 3!
+[2017.03.23-07.28.44:241][494]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array CallFunc_GetAllActorsOfClass_OutActors2 of length 2!
+[2017.03.23-07.28.44:241][494]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.28.44:241][494]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item9
+	LobbyGameMode_C /Game/Maps/Lobby.Lobby:PersistentLevel.LobbyGameMode_C_0
+	Function /Game/Blueprints/Lobby/LobbyGameMode.LobbyGameMode_C:ExecuteUbergraph_LobbyGameMode:0A40
+[2017.03.23-07.28.44:241][494]LogScript:Warning: Script call stack:
+	Function /Game/Blueprints/Lobby/LobbyPlayerController.LobbyPlayerController_C:CallUpdate
+	Function /Game/Blueprints/Lobby/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController
+	Function /Game/Blueprints/Lobby/LobbyGameMode.LobbyGameMode_C:SwapPawn
+	Function /Game/Blueprints/Lobby/LobbyGameMode.LobbyGameMode_C:ExecuteUbergraph_LobbyGameMode
+
+[2017.03.23-07.28.44:241][494]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.28.44:241][494]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item9
+	LobbyGameMode_C /Game/Maps/Lobby.Lobby:PersistentLevel.LobbyGameMode_C_0
+	Function /Game/Blueprints/Lobby/LobbyGameMode.LobbyGameMode_C:ExecuteUbergraph_LobbyGameMode:0A40
+[2017.03.23-07.28.44:241][494]LogScript:Warning: Script call stack:
+	Function /Game/Blueprints/Lobby/LobbyPlayerController.LobbyPlayerController_C:CallUpdate
+	Function /Game/Blueprints/Lobby/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController
+	Function /Game/Blueprints/Lobby/LobbyGameMode.LobbyGameMode_C:SwapPawn
+	Function /Game/Blueprints/Lobby/LobbyGameMode.LobbyGameMode_C:ExecuteUbergraph_LobbyGameMode
+
+[2017.03.23-07.28.44:242][494]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.28.44:244][494]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array AvailablePawns of length 3!
+[2017.03.23-07.28.44:435][506]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.28.44:644][519]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.28.44:854][532]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.28.45:064][545]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.28.45:273][558]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.28.45:483][571]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.28.45:693][584]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.28.45:902][597]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.28.46:112][610]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.28.46:322][623]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.28.46:532][636]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.28.46:742][649]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.28.46:951][662]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.28.46:983][664]PIE:Warning: Warning This widget does not support focus.  If this is a UserWidget, you should set bIsFocusable to true.
+[2017.03.23-07.28.47:161][675]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.28.47:371][688]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.28.47:581][701]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.28.47:790][714]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.28.47:840][717]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array CallFunc_GetAllActorsOfClass_OutActors2 of length 2!
+[2017.03.23-07.28.47:840][717]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.28.47:840][717]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item9
+	LobbyGameMode_C /Game/Maps/Lobby.Lobby:PersistentLevel.LobbyGameMode_C_0
+	Function /Game/Blueprints/Lobby/LobbyGameMode.LobbyGameMode_C:ExecuteUbergraph_LobbyGameMode:0A40
+[2017.03.23-07.28.47:840][717]LogScript:Warning: Script call stack:
+	Function /Game/Widgets/Lobby/PawnSelection.PawnSelection_C:BndEvt__Button_Player1_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature
+	Function /Game/Widgets/Lobby/PawnSelection.PawnSelection_C:ExecuteUbergraph_PawnSelection
+	Function /Game/Blueprints/Lobby/LobbyPlayerController.LobbyPlayerController_C:AssignSelectedPawn
+	Function /Game/Blueprints/Lobby/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController
+	Function /Game/Blueprints/Lobby/LobbyPlayerController.LobbyPlayerController_C:PawnCheck
+	Function /Game/Blueprints/Lobby/LobbyPlayerController.LobbyPlayerController_C:AssignPlayer
+	Function /Game/Blueprints/Lobby/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController
+	Function /Game/Blueprints/Lobby/LobbyPlayerController.LobbyPlayerController_C:CallUpdate
+	Function /Game/Blueprints/Lobby/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController
+	Function /Game/Blueprints/Lobby/LobbyGameMode.LobbyGameMode_C:SwapPawn
+	Function /Game/Blueprints/Lobby/LobbyGameMode.LobbyGameMode_C:ExecuteUbergraph_LobbyGameMode
+
+[2017.03.23-07.28.47:840][717]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.28.47:840][717]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item9
+	LobbyGameMode_C /Game/Maps/Lobby.Lobby:PersistentLevel.LobbyGameMode_C_0
+	Function /Game/Blueprints/Lobby/LobbyGameMode.LobbyGameMode_C:ExecuteUbergraph_LobbyGameMode:0A40
+[2017.03.23-07.28.47:840][717]LogScript:Warning: Script call stack:
+	Function /Game/Widgets/Lobby/PawnSelection.PawnSelection_C:BndEvt__Button_Player1_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature
+	Function /Game/Widgets/Lobby/PawnSelection.PawnSelection_C:ExecuteUbergraph_PawnSelection
+	Function /Game/Blueprints/Lobby/LobbyPlayerController.LobbyPlayerController_C:AssignSelectedPawn
+	Function /Game/Blueprints/Lobby/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController
+	Function /Game/Blueprints/Lobby/LobbyPlayerController.LobbyPlayerController_C:PawnCheck
+	Function /Game/Blueprints/Lobby/LobbyPlayerController.LobbyPlayerController_C:AssignPlayer
+	Function /Game/Blueprints/Lobby/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController
+	Function /Game/Blueprints/Lobby/LobbyPlayerController.LobbyPlayerController_C:CallUpdate
+	Function /Game/Blueprints/Lobby/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController
+	Function /Game/Blueprints/Lobby/LobbyGameMode.LobbyGameMode_C:SwapPawn
+	Function /Game/Blueprints/Lobby/LobbyGameMode.LobbyGameMode_C:ExecuteUbergraph_LobbyGameMode
+
+[2017.03.23-07.28.47:843][717]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array AvailablePawns of length 3!
+[2017.03.23-07.28.48:000][727]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.28.48:210][740]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.28.48:419][753]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.28.48:629][766]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.28.48:840][779]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.28.49:048][792]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.28.49:258][805]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.28.49:468][818]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.28.49:677][831]PIE:Warning: Warning This widget does not support focus.  If this is a UserWidget, you should set bIsFocusable to true.
+[2017.03.23-07.28.49:679][831]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.28.49:888][844]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.28.50:097][857]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.28.50:307][870]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.28.50:516][883]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.28.50:726][896]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.28.50:936][909]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.28.51:145][922]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.28.51:355][935]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.28.51:565][948]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.28.51:774][961]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.28.51:984][974]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.28.52:194][987]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.28.52:404][  0]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.28.52:613][ 13]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.28.52:823][ 26]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.28.53:033][ 39]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.28.53:242][ 52]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.28.53:452][ 65]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.28.53:662][ 78]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.28.53:872][ 91]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.28.54:081][104]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.28.54:291][117]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.28.54:501][130]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.28.54:710][143]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.28.54:743][145]LogBlueprintUserMessages: [LobbyPlayerController_C_0] SpectatorPawn1
+[2017.03.23-07.28.54:921][156]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.28.55:130][169]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.28.55:340][182]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.28.55:550][195]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.28.55:760][208]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.28.55:968][221]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.28.56:178][234]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.28.56:388][247]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.28.56:598][260]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.28.56:808][273]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.28.57:017][286]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.28.57:227][299]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.28.57:436][312]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.28.57:646][325]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.28.57:856][338]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.28.58:065][351]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.28.58:276][364]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.28.58:485][377]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.28.58:695][390]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.28.58:905][403]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.28.59:114][416]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.28.59:324][429]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.28.59:533][442]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.28.59:743][455]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.28.59:953][468]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.00:162][481]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.00:372][494]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.00:582][507]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.00:792][520]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.01:001][533]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.01:211][546]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.01:421][559]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.01:631][572]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.01:840][585]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.02:050][598]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.02:259][611]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.02:469][624]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.02:680][637]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.02:888][650]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.03:098][663]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.03:308][676]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.03:518][689]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.03:728][702]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.03:937][715]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.04:147][728]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.04:356][741]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.04:567][754]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.04:777][767]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.04:985][780]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.05:196][793]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.05:406][806]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.05:614][819]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.05:825][832]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.06:035][845]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.06:244][858]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.06:453][871]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.06:664][884]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.06:873][897]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.07:082][910]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.07:292][923]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.07:502][936]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.07:711][949]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.07:921][962]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.08:131][975]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.08:341][988]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.08:550][  1]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.08:760][ 14]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.08:970][ 27]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.09:180][ 40]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.09:390][ 53]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.09:599][ 66]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.09:809][ 79]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.10:019][ 92]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.10:229][105]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.10:438][118]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.10:648][131]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.10:858][144]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.11:067][157]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.11:277][170]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.11:487][183]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.11:696][196]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.11:906][209]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.12:116][222]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.12:326][235]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.12:536][248]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.12:745][261]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.12:955][274]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.13:020][278]PIE:Warning: Warning This widget does not support focus.  If this is a UserWidget, you should set bIsFocusable to true.
+[2017.03.23-07.29.13:165][287]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.13:375][300]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.13:584][313]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.13:794][326]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.14:004][339]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.14:213][352]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.14:423][365]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.14:633][378]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.14:842][391]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.15:052][404]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.15:263][417]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.15:472][430]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.15:683][443]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.15:892][456]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.16:101][469]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.16:312][482]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.16:391][487]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array AvailablePawns of length 3!
+[2017.03.23-07.29.16:392][487]LogScriptCore:Warning: Script Msg: Attempted to set an invalid index on array AvailablePawns [3/2]!
+[2017.03.23-07.29.16:393][487]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array CallFunc_GetAllActorsOfClass_OutActors2 of length 2!
+[2017.03.23-07.29.16:393][487]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.16:393][487]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item9
+	LobbyGameMode_C /Game/Maps/Lobby.Lobby:PersistentLevel.LobbyGameMode_C_0
+	Function /Game/Blueprints/Lobby/LobbyGameMode.LobbyGameMode_C:ExecuteUbergraph_LobbyGameMode:0A40
+[2017.03.23-07.29.16:393][487]LogScript:Warning: Script call stack:
+	Function /Game/Widgets/Lobby/PawnSelection.PawnSelection_C:BndEvt__Button_Player3_K2Node_ComponentBoundEvent_56_OnButtonClickedEvent__DelegateSignature
+	Function /Game/Widgets/Lobby/PawnSelection.PawnSelection_C:ExecuteUbergraph_PawnSelection
+	Function /Game/Blueprints/Lobby/LobbyPlayerController.LobbyPlayerController_C:AssignSelectedPawn
+	Function /Game/Blueprints/Lobby/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController
+	Function /Game/Blueprints/Lobby/LobbyPlayerController.LobbyPlayerController_C:PawnCheck
+	Function /Game/Blueprints/Lobby/LobbyPlayerController.LobbyPlayerController_C:AssignPlayer
+	Function /Game/Blueprints/Lobby/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController
+	Function /Game/Blueprints/Lobby/LobbyPlayerController.LobbyPlayerController_C:CallUpdate
+	Function /Game/Blueprints/Lobby/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController
+	Function /Game/Blueprints/Lobby/LobbyGameMode.LobbyGameMode_C:SwapPawn
+	Function /Game/Blueprints/Lobby/LobbyGameMode.LobbyGameMode_C:ExecuteUbergraph_LobbyGameMode
+
+[2017.03.23-07.29.16:393][487]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.16:393][487]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item9
+	LobbyGameMode_C /Game/Maps/Lobby.Lobby:PersistentLevel.LobbyGameMode_C_0
+	Function /Game/Blueprints/Lobby/LobbyGameMode.LobbyGameMode_C:ExecuteUbergraph_LobbyGameMode:0A40
+[2017.03.23-07.29.16:393][487]LogScript:Warning: Script call stack:
+	Function /Game/Widgets/Lobby/PawnSelection.PawnSelection_C:BndEvt__Button_Player3_K2Node_ComponentBoundEvent_56_OnButtonClickedEvent__DelegateSignature
+	Function /Game/Widgets/Lobby/PawnSelection.PawnSelection_C:ExecuteUbergraph_PawnSelection
+	Function /Game/Blueprints/Lobby/LobbyPlayerController.LobbyPlayerController_C:AssignSelectedPawn
+	Function /Game/Blueprints/Lobby/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController
+	Function /Game/Blueprints/Lobby/LobbyPlayerController.LobbyPlayerController_C:PawnCheck
+	Function /Game/Blueprints/Lobby/LobbyPlayerController.LobbyPlayerController_C:AssignPlayer
+	Function /Game/Blueprints/Lobby/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController
+	Function /Game/Blueprints/Lobby/LobbyPlayerController.LobbyPlayerController_C:CallUpdate
+	Function /Game/Blueprints/Lobby/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController
+	Function /Game/Blueprints/Lobby/LobbyGameMode.LobbyGameMode_C:SwapPawn
+	Function /Game/Blueprints/Lobby/LobbyGameMode.LobbyGameMode_C:ExecuteUbergraph_LobbyGameMode
+
+[2017.03.23-07.29.16:396][487]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array AvailablePawns of length 3!
+[2017.03.23-07.29.16:521][495]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.16:730][508]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.16:940][521]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.17:150][534]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.17:327][545]LogScriptCore:Warning: Script Msg: Attempted to set an invalid index on array AvailablePawns [3/2]!
+[2017.03.23-07.29.17:329][545]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array CallFunc_GetAllActorsOfClass_OutActors2 of length 2!
+[2017.03.23-07.29.17:329][545]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.17:329][545]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item9
+	LobbyGameMode_C /Game/Maps/Lobby.Lobby:PersistentLevel.LobbyGameMode_C_0
+	Function /Game/Blueprints/Lobby/LobbyGameMode.LobbyGameMode_C:ExecuteUbergraph_LobbyGameMode:0A40
+[2017.03.23-07.29.17:329][545]LogScript:Warning: Script call stack:
+	Function /Game/Widgets/Lobby/PawnSelection.PawnSelection_C:BndEvt__Button_Player1_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature
+	Function /Game/Widgets/Lobby/PawnSelection.PawnSelection_C:ExecuteUbergraph_PawnSelection
+	Function /Game/Blueprints/Lobby/LobbyPlayerController.LobbyPlayerController_C:AssignSelectedPawn
+	Function /Game/Blueprints/Lobby/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController
+	Function /Game/Blueprints/Lobby/LobbyPlayerController.LobbyPlayerController_C:PawnCheck
+	Function /Game/Blueprints/Lobby/LobbyPlayerController.LobbyPlayerController_C:AssignPlayer
+	Function /Game/Blueprints/Lobby/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController
+	Function /Game/Blueprints/Lobby/LobbyPlayerController.LobbyPlayerController_C:CallUpdate
+	Function /Game/Blueprints/Lobby/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController
+	Function /Game/Blueprints/Lobby/LobbyGameMode.LobbyGameMode_C:SwapPawn
+	Function /Game/Blueprints/Lobby/LobbyGameMode.LobbyGameMode_C:ExecuteUbergraph_LobbyGameMode
+
+[2017.03.23-07.29.17:329][545]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.17:329][545]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item9
+	LobbyGameMode_C /Game/Maps/Lobby.Lobby:PersistentLevel.LobbyGameMode_C_0
+	Function /Game/Blueprints/Lobby/LobbyGameMode.LobbyGameMode_C:ExecuteUbergraph_LobbyGameMode:0A40
+[2017.03.23-07.29.17:329][545]LogScript:Warning: Script call stack:
+	Function /Game/Widgets/Lobby/PawnSelection.PawnSelection_C:BndEvt__Button_Player1_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature
+	Function /Game/Widgets/Lobby/PawnSelection.PawnSelection_C:ExecuteUbergraph_PawnSelection
+	Function /Game/Blueprints/Lobby/LobbyPlayerController.LobbyPlayerController_C:AssignSelectedPawn
+	Function /Game/Blueprints/Lobby/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController
+	Function /Game/Blueprints/Lobby/LobbyPlayerController.LobbyPlayerController_C:PawnCheck
+	Function /Game/Blueprints/Lobby/LobbyPlayerController.LobbyPlayerController_C:AssignPlayer
+	Function /Game/Blueprints/Lobby/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController
+	Function /Game/Blueprints/Lobby/LobbyPlayerController.LobbyPlayerController_C:CallUpdate
+	Function /Game/Blueprints/Lobby/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController
+	Function /Game/Blueprints/Lobby/LobbyGameMode.LobbyGameMode_C:SwapPawn
+	Function /Game/Blueprints/Lobby/LobbyGameMode.LobbyGameMode_C:ExecuteUbergraph_LobbyGameMode
+
+[2017.03.23-07.29.17:332][545]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array AvailablePawns of length 3!
+[2017.03.23-07.29.17:359][547]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.17:569][560]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.17:779][573]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.17:989][586]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.18:198][599]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.18:408][612]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.18:617][625]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.18:827][638]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.19:037][651]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.19:247][664]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.19:456][677]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.19:667][690]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.19:876][703]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.20:085][716]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.20:295][729]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.20:505][742]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.20:634][750]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array AvailablePawns of length 3!
+[2017.03.23-07.29.20:634][750]LogScriptCore:Warning: Script Msg: Attempted to set an invalid index on array AvailablePawns [3/2]!
+[2017.03.23-07.29.20:650][751]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array CallFunc_GetAllActorsOfClass_OutActors2 of length 2!
+[2017.03.23-07.29.20:650][751]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.20:650][751]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item9
+	LobbyGameMode_C /Game/Maps/Lobby.Lobby:PersistentLevel.LobbyGameMode_C_0
+	Function /Game/Blueprints/Lobby/LobbyGameMode.LobbyGameMode_C:ExecuteUbergraph_LobbyGameMode:0A40
+[2017.03.23-07.29.20:650][751]LogScript:Warning: Script call stack:
+	Function /Game/Blueprints/Lobby/LobbyPlayerController.LobbyPlayerController_C:CallUpdate
+	Function /Game/Blueprints/Lobby/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController
+	Function /Game/Blueprints/Lobby/LobbyGameMode.LobbyGameMode_C:SwapPawn
+	Function /Game/Blueprints/Lobby/LobbyGameMode.LobbyGameMode_C:ExecuteUbergraph_LobbyGameMode
+
+[2017.03.23-07.29.20:650][751]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.20:650][751]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item9
+	LobbyGameMode_C /Game/Maps/Lobby.Lobby:PersistentLevel.LobbyGameMode_C_0
+	Function /Game/Blueprints/Lobby/LobbyGameMode.LobbyGameMode_C:ExecuteUbergraph_LobbyGameMode:0A40
+[2017.03.23-07.29.20:650][751]LogScript:Warning: Script call stack:
+	Function /Game/Blueprints/Lobby/LobbyPlayerController.LobbyPlayerController_C:CallUpdate
+	Function /Game/Blueprints/Lobby/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController
+	Function /Game/Blueprints/Lobby/LobbyGameMode.LobbyGameMode_C:SwapPawn
+	Function /Game/Blueprints/Lobby/LobbyGameMode.LobbyGameMode_C:ExecuteUbergraph_LobbyGameMode
+
+[2017.03.23-07.29.20:652][751]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array AvailablePawns of length 3!
+[2017.03.23-07.29.22:295][853]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array AvailablePawns of length 3!
+[2017.03.23-07.29.22:295][853]LogScriptCore:Warning: Script Msg: Attempted to set an invalid index on array AvailablePawns [3/2]!
+[2017.03.23-07.29.22:295][853]LogScriptCore:Warning: Script Msg: Attempted to set an invalid index on array AvailablePawns [3/2]!
+[2017.03.23-07.29.22:311][854]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array CallFunc_GetAllActorsOfClass_OutActors2 of length 2!
+[2017.03.23-07.29.22:311][854]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.22:311][854]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item9
+	LobbyGameMode_C /Game/Maps/Lobby.Lobby:PersistentLevel.LobbyGameMode_C_0
+	Function /Game/Blueprints/Lobby/LobbyGameMode.LobbyGameMode_C:ExecuteUbergraph_LobbyGameMode:0A40
+[2017.03.23-07.29.22:311][854]LogScript:Warning: Script call stack:
+	Function /Game/Blueprints/Lobby/LobbyPlayerController.LobbyPlayerController_C:CallUpdate
+	Function /Game/Blueprints/Lobby/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController
+	Function /Game/Blueprints/Lobby/LobbyGameMode.LobbyGameMode_C:SwapPawn
+	Function /Game/Blueprints/Lobby/LobbyGameMode.LobbyGameMode_C:ExecuteUbergraph_LobbyGameMode
+
+[2017.03.23-07.29.22:311][854]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.22:311][854]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item9
+	LobbyGameMode_C /Game/Maps/Lobby.Lobby:PersistentLevel.LobbyGameMode_C_0
+	Function /Game/Blueprints/Lobby/LobbyGameMode.LobbyGameMode_C:ExecuteUbergraph_LobbyGameMode:0A40
+[2017.03.23-07.29.22:311][854]LogScript:Warning: Script call stack:
+	Function /Game/Blueprints/Lobby/LobbyPlayerController.LobbyPlayerController_C:CallUpdate
+	Function /Game/Blueprints/Lobby/LobbyPlayerController.LobbyPlayerController_C:ExecuteUbergraph_LobbyPlayerController
+	Function /Game/Blueprints/Lobby/LobbyGameMode.LobbyGameMode_C:SwapPawn
+	Function /Game/Blueprints/Lobby/LobbyGameMode.LobbyGameMode_C:ExecuteUbergraph_LobbyGameMode
+
+[2017.03.23-07.29.22:314][854]LogScriptCore:Warning: Script Msg: Attempted to access index 3 from array AvailablePawns of length 3!
+[2017.03.23-07.29.26:652][123]LogGameMode:Display: Match State Changed from InProgress to LeavingMap
+[2017.03.23-07.29.26:652][123]LogGameState: Match State Changed from InProgress to LeavingMap
+[2017.03.23-07.29.26:652][123]LogGameMode: ProcessServerTravel: /Game/Maps/StratagemaGame
+[2017.03.23-07.29.26:652][123]LogWorld: SeamlessTravel to: /Game/Maps/StratagemaGame
+[2017.03.23-07.29.26:689][124]LogAIModule: Creating AISystem for world Travel
+[2017.03.23-07.29.26:691][124]LogStats:     SeamlessTravel FlushLevelStreaming  -  0.002 s
+[2017.03.23-07.29.26:691][124]LogWorld: Bringing World /Game/Maps/Travel.Travel up for play (max tick rate 0) at 2017.03.23-07.29.26
+[2017.03.23-07.29.26:691][124]LogWorld: Bringing up level for play took: 0.000716
+[2017.03.23-07.29.26:691][124]LogWorld: Sending NotifyLoadedWorld for LP: LocalPlayer_0 PC: LobbyPlayerController_C_0
+[2017.03.23-07.29.26:691][124]LogNet:Verbose: NotifyLoadedWorld Begin
+[2017.03.23-07.29.26:691][124]LogNet:VeryVerbose: GetFunctionCallspace Server calling Server function: ServerNotifyLoadedWorld Local
+[2017.03.23-07.29.26:691][124]LogNet:Verbose: NotifyLoadedWorld End
+[2017.03.23-07.29.26:691][124]LogWorld: StartLoadingDestination to: /Game/Maps/StratagemaGame
+[2017.03.23-07.29.26:737][125]LogAIModule: Creating AISystem for world StratagemaGame
+[2017.03.23-07.29.26:737][125]LogLoad: Game class is 'StratagemeGameMode_C'
+[2017.03.23-07.29.26:739][125]LogStats:     SeamlessTravel FlushLevelStreaming  -  0.002 s
+[2017.03.23-07.29.26:740][125]LogWorld: Bringing World /Game/Maps/StratagemaGame.StratagemaGame up for play (max tick rate 0) at 2017.03.23-07.29.26
+[2017.03.23-07.29.26:740][125]LogWorld: Bringing up level for play took: 0.000816
+[2017.03.23-07.29.26:740][125]LogWorld: Sending NotifyLoadedWorld for LP: LocalPlayer_0 PC: LobbyPlayerController_C_0
+[2017.03.23-07.29.26:740][125]LogNet:Verbose: NotifyLoadedWorld Begin
+[2017.03.23-07.29.26:740][125]LogNet:VeryVerbose: GetFunctionCallspace Server calling Server function: ServerNotifyLoadedWorld Local
+[2017.03.23-07.29.26:740][125]LogNet:Verbose: NotifyLoadedWorld End
+[2017.03.23-07.29.26:740][125]LogWorld: ----SeamlessTravel finished in 0.09 seconds ------
+[2017.03.23-07.29.26:740][125]LogGameMode: >> GameMode::HandleSeamlessTravelPlayer: LobbyPlayerController_C_0 
+[2017.03.23-07.29.26:741][125]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.03.23-07.29.26:741][125]LogGameMode: << GameMode::HandleSeamlessTravelPlayer: StratagemaPlayerController_C_0
+[2017.03.23-07.29.26:741][125]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.03.23-07.29.26:741][125]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.03.23-07.29.26:741][125]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.03.23-07.29.26:742][125]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array CallFunc_GetAllActorsOfClass_OutActors of length 2!
+[2017.03.23-07.29.26:742][125]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.26:742][125]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item4
+	StratagemeGameMode_C /Game/Maps/StratagemaGame.StratagemaGame:PersistentLevel.StratagemeGameMode_C_0
+	Function /Game/Blueprints/GamePlay/StratagemeGameMode.StratagemeGameMode_C:ExecuteUbergraph_StratagemeGameMode:0C44
+[2017.03.23-07.29.26:742][125]LogScript:Warning: Script call stack:
+	Function /Game/Blueprints/GamePlay/StratagemaPlayerController.StratagemaPlayerController_C:ReceiveBeginPlay
+	Function /Game/Blueprints/GamePlay/StratagemaPlayerController.StratagemaPlayerController_C:ExecuteUbergraph_StratagemaPlayerController
+	Function /Game/Blueprints/GamePlay/StratagemaPlayerController.StratagemaPlayerController_C:PassPlayerInfoToServer
+	Function /Game/Blueprints/GamePlay/StratagemaPlayerController.StratagemaPlayerController_C:ExecuteUbergraph_StratagemaPlayerController
+	Function /Game/Blueprints/GamePlay/StratagemeGameMode.StratagemeGameMode_C:SpawnPlayer
+	Function /Game/Blueprints/GamePlay/StratagemeGameMode.StratagemeGameMode_C:ExecuteUbergraph_StratagemeGameMode
+
+[2017.03.23-07.29.26:752][125]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.03.23-07.29.26:770][127]LogGameMode: >> GameMode::HandleSeamlessTravelPlayer: LobbyPlayerController_C_1 
+[2017.03.23-07.29.26:771][127]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.03.23-07.29.26:771][127]LogGameMode: << GameMode::HandleSeamlessTravelPlayer: StratagemaPlayerController_C_1
+[2017.03.23-07.29.26:803][129]LogScriptCore:Warning: Script Msg: DestroySession - Invalid player state
+[2017.03.23-07.29.26:899][135]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array CallFunc_GetAllActorsOfClass_OutActors of length 2!
+[2017.03.23-07.29.26:899][135]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.26:899][135]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item4
+	StratagemeGameMode_C /Game/Maps/StratagemaGame.StratagemaGame:PersistentLevel.StratagemeGameMode_C_0
+	Function /Game/Blueprints/GamePlay/StratagemeGameMode.StratagemeGameMode_C:ExecuteUbergraph_StratagemeGameMode:0C44
+[2017.03.23-07.29.26:899][135]LogScript:Warning: Script call stack:
+	Function /Game/Blueprints/GamePlay/StratagemaPlayerController.StratagemaPlayerController_C:PassPlayerInfoToServer
+	Function /Game/Blueprints/GamePlay/StratagemaPlayerController.StratagemaPlayerController_C:ExecuteUbergraph_StratagemaPlayerController
+	Function /Game/Blueprints/GamePlay/StratagemeGameMode.StratagemeGameMode_C:SpawnPlayer
+	Function /Game/Blueprints/GamePlay/StratagemeGameMode.StratagemeGameMode_C:ExecuteUbergraph_StratagemeGameMode
+
+[2017.03.23-07.29.26:900][135]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.27:093][147]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.27:303][160]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.27:512][173]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.27:722][186]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.27:931][199]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.28:141][212]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.28:351][225]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.28:561][238]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.28:771][251]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.28:980][264]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.29:190][277]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.29:399][290]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.29:609][303]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.29:819][316]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.29:867][319]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.29:867][319]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	Player1_C /Game/Maps/StratagemaGame.StratagemaGame:PersistentLevel.Player1_C_0
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:ExecuteUbergraph_StratagemaPawn:509D
+[2017.03.23-07.29.29:867][319]LogScript:Warning: Script call stack:
+	Function /Game/Blueprints/Pawns/Player1.Player1_C:ReceiveActorBeginOverlap
+	Function /Game/Blueprints/Pawns/Player1.Player1_C:ExecuteUbergraph_Player1
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:DefineAdjcentNodes
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:ExecuteUbergraph_StratagemaPawn
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:DefineOppositeNodes
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:ExecuteUbergraph_StratagemaPawn
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:SpawnSquare
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:ExecuteUbergraph_StratagemaPawn
+
+[2017.03.23-07.29.30:029][329]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.30:238][342]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.30:448][355]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.30:658][368]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.30:868][381]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.30:932][385]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.30:932][385]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	Player1_C /Game/Maps/StratagemaGame.StratagemaGame:PersistentLevel.Player1_C_0
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:ExecuteUbergraph_StratagemaPawn:509D
+[2017.03.23-07.29.30:932][385]LogScript:Warning: Script call stack:
+	Function /Game/Blueprints/Pawns/Player1.Player1_C:ReceiveActorBeginOverlap
+	Function /Game/Blueprints/Pawns/Player1.Player1_C:ExecuteUbergraph_Player1
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:DefineAdjcentNodes
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:ExecuteUbergraph_StratagemaPawn
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:DefineOppositeNodes
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:ExecuteUbergraph_StratagemaPawn
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:SpawnSquare
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:ExecuteUbergraph_StratagemaPawn
+
+[2017.03.23-07.29.31:077][394]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.31:287][407]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.31:384][413]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.31:384][413]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	Player1_C /Game/Maps/StratagemaGame.StratagemaGame:PersistentLevel.Player1_C_0
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:ExecuteUbergraph_StratagemaPawn:509D
+[2017.03.23-07.29.31:384][413]LogScript:Warning: Script call stack:
+	Function /Game/Blueprints/Pawns/Player1.Player1_C:ReceiveActorBeginOverlap
+	Function /Game/Blueprints/Pawns/Player1.Player1_C:ExecuteUbergraph_Player1
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:DefineAdjcentNodes
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:ExecuteUbergraph_StratagemaPawn
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:DefineOppositeNodes
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:ExecuteUbergraph_StratagemaPawn
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:SpawnSquare
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:ExecuteUbergraph_StratagemaPawn
+
+[2017.03.23-07.29.31:497][420]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.31:707][433]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.31:868][443]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.31:868][443]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	Player1_C /Game/Maps/StratagemaGame.StratagemaGame:PersistentLevel.Player1_C_0
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:ExecuteUbergraph_StratagemaPawn:509D
+[2017.03.23-07.29.31:868][443]LogScript:Warning: Script call stack:
+	Function /Game/Blueprints/Pawns/Player1.Player1_C:ReceiveActorBeginOverlap
+	Function /Game/Blueprints/Pawns/Player1.Player1_C:ExecuteUbergraph_Player1
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:DefineAdjcentNodes
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:ExecuteUbergraph_StratagemaPawn
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:DefineOppositeNodes
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:ExecuteUbergraph_StratagemaPawn
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:SpawnSquare
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:ExecuteUbergraph_StratagemaPawn
+
+[2017.03.23-07.29.31:869][443]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.31:869][443]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	Player1_C /Game/Maps/StratagemaGame.StratagemaGame:PersistentLevel.Player1_C_0
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:ExecuteUbergraph_StratagemaPawn:509D
+[2017.03.23-07.29.31:869][443]LogScript:Warning: Script call stack:
+	Function /Game/Blueprints/Pawns/Player1.Player1_C:ReceiveActorBeginOverlap
+	Function /Game/Blueprints/Pawns/Player1.Player1_C:ExecuteUbergraph_Player1
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:DefineAdjcentNodes
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:ExecuteUbergraph_StratagemaPawn
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:DefineOppositeNodes
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:ExecuteUbergraph_StratagemaPawn
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:SpawnSquare
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:ExecuteUbergraph_StratagemaPawn
+
+[2017.03.23-07.29.31:870][443]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=250.000 Y=250.000 Z=250.000] for [CubeActor3_C]
+[2017.03.23-07.29.31:916][446]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.32:126][459]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.32:336][472]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.32:546][485]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.32:755][498]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.32:965][511]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.33:174][524]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.33:384][537]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.33:400][538]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.33:400][538]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	Player1_C /Game/Maps/StratagemaGame.StratagemaGame:PersistentLevel.Player1_C_0
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:ExecuteUbergraph_StratagemaPawn:509D
+[2017.03.23-07.29.33:400][538]LogScript:Warning: Script call stack:
+	Function /Game/Blueprints/Pawns/Player1.Player1_C:ReceiveActorBeginOverlap
+	Function /Game/Blueprints/Pawns/Player1.Player1_C:ExecuteUbergraph_Player1
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:DefineAdjcentNodes
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:ExecuteUbergraph_StratagemaPawn
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:DefineOppositeNodes
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:ExecuteUbergraph_StratagemaPawn
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:SpawnSquare
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:ExecuteUbergraph_StratagemaPawn
+
+[2017.03.23-07.29.33:594][550]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.33:804][563]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.34:013][576]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.34:223][589]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.34:433][602]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.34:643][615]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.34:852][628]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.35:062][641]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.35:175][648]LogBlueprintUserMessages: [Player1_C_0] Blocked Z
+[2017.03.23-07.29.35:271][654]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.35:481][667]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.35:691][680]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.35:901][693]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.36:110][706]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.36:320][719]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.36:417][725]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.36:417][725]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	Player1_C /Game/Maps/StratagemaGame.StratagemaGame:PersistentLevel.Player1_C_0
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:ExecuteUbergraph_StratagemaPawn:509D
+[2017.03.23-07.29.36:417][725]LogScript:Warning: Script call stack:
+	Function /Game/Blueprints/Pawns/Player1.Player1_C:ReceiveActorBeginOverlap
+	Function /Game/Blueprints/Pawns/Player1.Player1_C:ExecuteUbergraph_Player1
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:DefineAdjcentNodes
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:ExecuteUbergraph_StratagemaPawn
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:DefineOppositeNodes
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:ExecuteUbergraph_StratagemaPawn
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:SpawnSquare
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:ExecuteUbergraph_StratagemaPawn
+
+[2017.03.23-07.29.36:530][732]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.36:739][745]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.36:901][755]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.36:901][755]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	Player1_C /Game/Maps/StratagemaGame.StratagemaGame:PersistentLevel.Player1_C_0
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:ExecuteUbergraph_StratagemaPawn:509D
+[2017.03.23-07.29.36:901][755]LogScript:Warning: Script call stack:
+	Function /Game/Blueprints/Pawns/Player1.Player1_C:ReceiveActorBeginOverlap
+	Function /Game/Blueprints/Pawns/Player1.Player1_C:ExecuteUbergraph_Player1
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:DefineAdjcentNodes
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:ExecuteUbergraph_StratagemaPawn
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:DefineOppositeNodes
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:ExecuteUbergraph_StratagemaPawn
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:SpawnSquare
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:ExecuteUbergraph_StratagemaPawn
+
+[2017.03.23-07.29.36:901][755]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.36:901][755]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	Player1_C /Game/Maps/StratagemaGame.StratagemaGame:PersistentLevel.Player1_C_0
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:ExecuteUbergraph_StratagemaPawn:509D
+[2017.03.23-07.29.36:901][755]LogScript:Warning: Script call stack:
+	Function /Game/Blueprints/Pawns/Player1.Player1_C:ReceiveActorBeginOverlap
+	Function /Game/Blueprints/Pawns/Player1.Player1_C:ExecuteUbergraph_Player1
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:DefineAdjcentNodes
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:ExecuteUbergraph_StratagemaPawn
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:DefineOppositeNodes
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:ExecuteUbergraph_StratagemaPawn
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:SpawnSquare
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:ExecuteUbergraph_StratagemaPawn
+
+[2017.03.23-07.29.36:949][758]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.37:158][771]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.37:368][784]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.37:578][797]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.37:675][803]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.37:675][803]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	Player1_C /Game/Maps/StratagemaGame.StratagemaGame:PersistentLevel.Player1_C_0
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:ExecuteUbergraph_StratagemaPawn:509D
+[2017.03.23-07.29.37:675][803]LogScript:Warning: Script call stack:
+	Function /Game/Blueprints/Pawns/Player1.Player1_C:ReceiveActorBeginOverlap
+	Function /Game/Blueprints/Pawns/Player1.Player1_C:ExecuteUbergraph_Player1
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:DefineAdjcentNodes
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:ExecuteUbergraph_StratagemaPawn
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:DefineOppositeNodes
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:ExecuteUbergraph_StratagemaPawn
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:SpawnSquare
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:ExecuteUbergraph_StratagemaPawn
+
+[2017.03.23-07.29.37:788][810]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.37:997][823]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.38:062][827]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.38:062][827]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	Player1_C /Game/Maps/StratagemaGame.StratagemaGame:PersistentLevel.Player1_C_0
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:ExecuteUbergraph_StratagemaPawn:509D
+[2017.03.23-07.29.38:062][827]LogScript:Warning: Script call stack:
+	Function /Game/Blueprints/Pawns/Player1.Player1_C:ReceiveActorBeginOverlap
+	Function /Game/Blueprints/Pawns/Player1.Player1_C:ExecuteUbergraph_Player1
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:DefineAdjcentNodes
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:ExecuteUbergraph_StratagemaPawn
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:DefineOppositeNodes
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:ExecuteUbergraph_StratagemaPawn
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:SpawnSquare
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:ExecuteUbergraph_StratagemaPawn
+
+[2017.03.23-07.29.38:062][827]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.38:062][827]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	Player1_C /Game/Maps/StratagemaGame.StratagemaGame:PersistentLevel.Player1_C_0
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:ExecuteUbergraph_StratagemaPawn:509D
+[2017.03.23-07.29.38:063][827]LogScript:Warning: Script call stack:
+	Function /Game/Blueprints/Pawns/Player1.Player1_C:ReceiveActorBeginOverlap
+	Function /Game/Blueprints/Pawns/Player1.Player1_C:ExecuteUbergraph_Player1
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:DefineAdjcentNodes
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:ExecuteUbergraph_StratagemaPawn
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:DefineOppositeNodes
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:ExecuteUbergraph_StratagemaPawn
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:SpawnSquare
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:ExecuteUbergraph_StratagemaPawn
+
+[2017.03.23-07.29.38:063][827]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=250.000 Y=250.000 Z=750.000] for [CubeActor3_C]
+[2017.03.23-07.29.38:207][836]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.38:417][849]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.38:626][862]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.38:836][875]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.39:046][888]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.39:255][901]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.39:320][905]LogBlueprintUserMessages: [Player1_C_0] Blocked Y
+[2017.03.23-07.29.39:465][914]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.39:675][927]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.39:885][940]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.40:094][953]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.40:304][966]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.40:514][979]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.40:724][992]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.40:933][  5]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.41:143][ 18]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.41:352][ 31]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.41:562][ 44]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.41:772][ 57]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.41:982][ 70]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.42:191][ 83]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.42:401][ 96]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.42:610][109]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.42:820][122]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.43:030][135]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.43:239][148]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.43:450][161]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.43:659][174]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.43:869][187]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.44:079][200]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.44:288][213]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.44:498][226]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.44:708][239]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.44:917][252]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.45:127][265]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.45:337][278]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.45:546][291]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.45:756][304]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.45:966][317]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.46:176][330]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.46:386][343]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.46:595][356]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.46:805][369]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.47:015][382]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.47:225][395]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.47:434][408]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.47:644][421]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.47:854][434]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.48:063][447]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.48:273][460]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.48:482][473]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.48:692][486]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.48:902][499]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.49:112][512]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.49:321][525]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.49:531][538]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.49:741][551]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.49:950][564]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.50:160][577]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.50:370][590]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.50:580][603]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.50:790][616]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.50:790][616]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	Player3_C /Game/Maps/StratagemaGame.StratagemaGame:PersistentLevel.Player3_C_0
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:ExecuteUbergraph_StratagemaPawn:509D
+[2017.03.23-07.29.50:790][616]LogScript:Warning: Script call stack:
+	Function /Game/Blueprints/Pawns/Player3.Player3_C:ReceiveActorBeginOverlap
+	Function /Game/Blueprints/Pawns/Player3.Player3_C:ExecuteUbergraph_Player3
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:DefineAdjcentNodes
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:ExecuteUbergraph_StratagemaPawn
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:DefineOppositeNodes
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:ExecuteUbergraph_StratagemaPawn
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:SpawnSquare
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:ExecuteUbergraph_StratagemaPawn
+
+[2017.03.23-07.29.50:791][616]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.50:999][629]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.51:209][642]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.51:418][655]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.51:628][668]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.51:838][681]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.52:047][694]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.52:241][706]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.52:241][706]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	Player3_C /Game/Maps/StratagemaGame.StratagemaGame:PersistentLevel.Player3_C_0
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:ExecuteUbergraph_StratagemaPawn:509D
+[2017.03.23-07.29.52:241][706]LogScript:Warning: Script call stack:
+	Function /Game/Blueprints/Pawns/Player3.Player3_C:ReceiveActorBeginOverlap
+	Function /Game/Blueprints/Pawns/Player3.Player3_C:ExecuteUbergraph_Player3
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:DefineAdjcentNodes
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:ExecuteUbergraph_StratagemaPawn
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:DefineOppositeNodes
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:ExecuteUbergraph_StratagemaPawn
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:SpawnSquare
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:ExecuteUbergraph_StratagemaPawn
+
+[2017.03.23-07.29.52:257][707]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.52:467][720]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.52:676][733]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.52:854][744]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.52:854][744]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	Player3_C /Game/Maps/StratagemaGame.StratagemaGame:PersistentLevel.Player3_C_0
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:ExecuteUbergraph_StratagemaPawn:509D
+[2017.03.23-07.29.52:854][744]LogScript:Warning: Script call stack:
+	Function /Game/Blueprints/Pawns/Player3.Player3_C:ReceiveActorBeginOverlap
+	Function /Game/Blueprints/Pawns/Player3.Player3_C:ExecuteUbergraph_Player3
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:DefineAdjcentNodes
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:ExecuteUbergraph_StratagemaPawn
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:DefineOppositeNodes
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:ExecuteUbergraph_StratagemaPawn
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:SpawnSquare
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:ExecuteUbergraph_StratagemaPawn
+
+[2017.03.23-07.29.52:887][746]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.53:096][759]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.53:306][772]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.53:306][772]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	Player3_C /Game/Maps/StratagemaGame.StratagemaGame:PersistentLevel.Player3_C_0
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:ExecuteUbergraph_StratagemaPawn:509D
+[2017.03.23-07.29.53:306][772]LogScript:Warning: Script call stack:
+	Function /Game/Blueprints/Pawns/Player3.Player3_C:ReceiveActorBeginOverlap
+	Function /Game/Blueprints/Pawns/Player3.Player3_C:ExecuteUbergraph_Player3
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:DefineAdjcentNodes
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:ExecuteUbergraph_StratagemaPawn
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:DefineOppositeNodes
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:ExecuteUbergraph_StratagemaPawn
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:SpawnSquare
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:ExecuteUbergraph_StratagemaPawn
+
+[2017.03.23-07.29.53:307][772]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.53:307][772]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	Player3_C /Game/Maps/StratagemaGame.StratagemaGame:PersistentLevel.Player3_C_0
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:ExecuteUbergraph_StratagemaPawn:509D
+[2017.03.23-07.29.53:307][772]LogScript:Warning: Script call stack:
+	Function /Game/Blueprints/Pawns/Player3.Player3_C:ReceiveActorBeginOverlap
+	Function /Game/Blueprints/Pawns/Player3.Player3_C:ExecuteUbergraph_Player3
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:DefineAdjcentNodes
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:ExecuteUbergraph_StratagemaPawn
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:DefineOppositeNodes
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:ExecuteUbergraph_StratagemaPawn
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:SpawnSquare
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:ExecuteUbergraph_StratagemaPawn
+
+[2017.03.23-07.29.53:307][772]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=1250.000 Y=250.000 Z=1250.000] for [CubeActor3_C]
+[2017.03.23-07.29.53:307][772]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.53:515][785]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.53:725][798]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.53:935][811]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.54:145][824]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.54:354][837]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.54:564][850]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.54:774][863]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.54:983][876]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.55:193][889]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.55:403][902]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.55:612][915]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.55:823][928]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.55:856][930]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.55:856][930]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	Player3_C /Game/Maps/StratagemaGame.StratagemaGame:PersistentLevel.Player3_C_0
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:ExecuteUbergraph_StratagemaPawn:509D
+[2017.03.23-07.29.55:856][930]LogScript:Warning: Script call stack:
+	Function /Game/Blueprints/Pawns/Player3.Player3_C:ReceiveActorBeginOverlap
+	Function /Game/Blueprints/Pawns/Player3.Player3_C:ExecuteUbergraph_Player3
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:DefineAdjcentNodes
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:ExecuteUbergraph_StratagemaPawn
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:DefineOppositeNodes
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:ExecuteUbergraph_StratagemaPawn
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:SpawnSquare
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:ExecuteUbergraph_StratagemaPawn
+
+[2017.03.23-07.29.56:032][941]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.56:241][954]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.56:273][956]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.56:274][956]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	Player3_C /Game/Maps/StratagemaGame.StratagemaGame:PersistentLevel.Player3_C_0
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:ExecuteUbergraph_StratagemaPawn:509D
+[2017.03.23-07.29.56:274][956]LogScript:Warning: Script call stack:
+	Function /Game/Blueprints/Pawns/Player3.Player3_C:ReceiveActorBeginOverlap
+	Function /Game/Blueprints/Pawns/Player3.Player3_C:ExecuteUbergraph_Player3
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:DefineAdjcentNodes
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:ExecuteUbergraph_StratagemaPawn
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:DefineOppositeNodes
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:ExecuteUbergraph_StratagemaPawn
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:SpawnSquare
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:ExecuteUbergraph_StratagemaPawn
+
+[2017.03.23-07.29.56:451][967]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.56:661][980]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.56:725][984]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.56:725][984]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	Player3_C /Game/Maps/StratagemaGame.StratagemaGame:PersistentLevel.Player3_C_0
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:ExecuteUbergraph_StratagemaPawn:509D
+[2017.03.23-07.29.56:725][984]LogScript:Warning: Script call stack:
+	Function /Game/Blueprints/Pawns/Player3.Player3_C:ReceiveActorBeginOverlap
+	Function /Game/Blueprints/Pawns/Player3.Player3_C:ExecuteUbergraph_Player3
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:DefineAdjcentNodes
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:ExecuteUbergraph_StratagemaPawn
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:DefineOppositeNodes
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:ExecuteUbergraph_StratagemaPawn
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:SpawnSquare
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:ExecuteUbergraph_StratagemaPawn
+
+[2017.03.23-07.29.56:726][984]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.56:726][984]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	Player3_C /Game/Maps/StratagemaGame.StratagemaGame:PersistentLevel.Player3_C_0
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:ExecuteUbergraph_StratagemaPawn:509D
+[2017.03.23-07.29.56:726][984]LogScript:Warning: Script call stack:
+	Function /Game/Blueprints/Pawns/Player3.Player3_C:ReceiveActorBeginOverlap
+	Function /Game/Blueprints/Pawns/Player3.Player3_C:ExecuteUbergraph_Player3
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:DefineAdjcentNodes
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:ExecuteUbergraph_StratagemaPawn
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:DefineOppositeNodes
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:ExecuteUbergraph_StratagemaPawn
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:SpawnSquare
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:ExecuteUbergraph_StratagemaPawn
+
+[2017.03.23-07.29.56:727][984]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=1250.000 Y=750.000 Z=1250.000] for [CubeActor3_C]
+[2017.03.23-07.29.56:871][993]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.57:080][  6]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.57:290][ 19]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.57:499][ 32]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.57:709][ 45]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.57:758][ 48]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.57:758][ 48]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	Player3_C /Game/Maps/StratagemaGame.StratagemaGame:PersistentLevel.Player3_C_0
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:ExecuteUbergraph_StratagemaPawn:509D
+[2017.03.23-07.29.57:758][ 48]LogScript:Warning: Script call stack:
+	Function /Game/Blueprints/Pawns/Player3.Player3_C:ReceiveActorBeginOverlap
+	Function /Game/Blueprints/Pawns/Player3.Player3_C:ExecuteUbergraph_Player3
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:DefineAdjcentNodes
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:ExecuteUbergraph_StratagemaPawn
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:DefineOppositeNodes
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:ExecuteUbergraph_StratagemaPawn
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:SpawnSquare
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:ExecuteUbergraph_StratagemaPawn
+
+[2017.03.23-07.29.57:919][ 58]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.58:128][ 71]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.58:145][ 72]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.58:145][ 72]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	Player3_C /Game/Maps/StratagemaGame.StratagemaGame:PersistentLevel.Player3_C_0
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:ExecuteUbergraph_StratagemaPawn:509D
+[2017.03.23-07.29.58:145][ 72]LogScript:Warning: Script call stack:
+	Function /Game/Blueprints/Pawns/Player3.Player3_C:ReceiveActorBeginOverlap
+	Function /Game/Blueprints/Pawns/Player3.Player3_C:ExecuteUbergraph_Player3
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:DefineAdjcentNodes
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:ExecuteUbergraph_StratagemaPawn
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:DefineOppositeNodes
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:ExecuteUbergraph_StratagemaPawn
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:SpawnSquare
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:ExecuteUbergraph_StratagemaPawn
+
+[2017.03.23-07.29.58:338][ 84]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.58:548][ 97]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.58:613][101]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.58:613][101]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	Player3_C /Game/Maps/StratagemaGame.StratagemaGame:PersistentLevel.Player3_C_0
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:ExecuteUbergraph_StratagemaPawn:509D
+[2017.03.23-07.29.58:613][101]LogScript:Warning: Script call stack:
+	Function /Game/Blueprints/Pawns/Player3.Player3_C:ReceiveActorBeginOverlap
+	Function /Game/Blueprints/Pawns/Player3.Player3_C:ExecuteUbergraph_Player3
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:DefineAdjcentNodes
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:ExecuteUbergraph_StratagemaPawn
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:DefineOppositeNodes
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:ExecuteUbergraph_StratagemaPawn
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:SpawnSquare
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:ExecuteUbergraph_StratagemaPawn
+
+[2017.03.23-07.29.58:613][101]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.58:613][101]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	Player3_C /Game/Maps/StratagemaGame.StratagemaGame:PersistentLevel.Player3_C_0
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:ExecuteUbergraph_StratagemaPawn:509D
+[2017.03.23-07.29.58:613][101]LogScript:Warning: Script call stack:
+	Function /Game/Blueprints/Pawns/Player3.Player3_C:ReceiveActorBeginOverlap
+	Function /Game/Blueprints/Pawns/Player3.Player3_C:ExecuteUbergraph_Player3
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:DefineAdjcentNodes
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:ExecuteUbergraph_StratagemaPawn
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:DefineOppositeNodes
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:ExecuteUbergraph_StratagemaPawn
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:SpawnSquare
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:ExecuteUbergraph_StratagemaPawn
+
+[2017.03.23-07.29.58:614][101]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=1250.000 Y=1250.000 Z=1250.000] for [CubeActor3_C]
+[2017.03.23-07.29.58:757][110]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.58:967][123]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.59:177][136]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.59:387][149]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.59:596][162]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.59:741][171]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.29.59:741][171]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	Player3_C /Game/Maps/StratagemaGame.StratagemaGame:PersistentLevel.Player3_C_0
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:ExecuteUbergraph_StratagemaPawn:509D
+[2017.03.23-07.29.59:742][171]LogScript:Warning: Script call stack:
+	Function /Game/Blueprints/Pawns/Player3.Player3_C:ReceiveActorBeginOverlap
+	Function /Game/Blueprints/Pawns/Player3.Player3_C:ExecuteUbergraph_Player3
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:DefineAdjcentNodes
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:ExecuteUbergraph_StratagemaPawn
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:DefineOppositeNodes
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:ExecuteUbergraph_StratagemaPawn
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:SpawnSquare
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:ExecuteUbergraph_StratagemaPawn
+
+[2017.03.23-07.29.59:806][175]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.30.00:016][188]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.30.00:226][201]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.30.00:274][204]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.30.00:274][204]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	Player3_C /Game/Maps/StratagemaGame.StratagemaGame:PersistentLevel.Player3_C_0
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:ExecuteUbergraph_StratagemaPawn:509D
+[2017.03.23-07.30.00:274][204]LogScript:Warning: Script call stack:
+	Function /Game/Blueprints/Pawns/Player3.Player3_C:ReceiveActorBeginOverlap
+	Function /Game/Blueprints/Pawns/Player3.Player3_C:ExecuteUbergraph_Player3
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:DefineAdjcentNodes
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:ExecuteUbergraph_StratagemaPawn
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:DefineOppositeNodes
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:ExecuteUbergraph_StratagemaPawn
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:SpawnSquare
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:ExecuteUbergraph_StratagemaPawn
+
+[2017.03.23-07.30.00:440][214]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.30.00:650][227]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.30.00:650][227]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	Player3_C /Game/Maps/StratagemaGame.StratagemaGame:PersistentLevel.Player3_C_0
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:ExecuteUbergraph_StratagemaPawn:509D
+[2017.03.23-07.30.00:650][227]LogScript:Warning: Script call stack:
+	Function /Game/Blueprints/Pawns/Player3.Player3_C:ReceiveActorBeginOverlap
+	Function /Game/Blueprints/Pawns/Player3.Player3_C:ExecuteUbergraph_Player3
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:DefineAdjcentNodes
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:ExecuteUbergraph_StratagemaPawn
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:DefineOppositeNodes
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:ExecuteUbergraph_StratagemaPawn
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:SpawnSquare
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:ExecuteUbergraph_StratagemaPawn
+
+[2017.03.23-07.30.00:651][227]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.30.00:651][227]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	Player3_C /Game/Maps/StratagemaGame.StratagemaGame:PersistentLevel.Player3_C_0
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:ExecuteUbergraph_StratagemaPawn:509D
+[2017.03.23-07.30.00:651][227]LogScript:Warning: Script call stack:
+	Function /Game/Blueprints/Pawns/Player3.Player3_C:ReceiveActorBeginOverlap
+	Function /Game/Blueprints/Pawns/Player3.Player3_C:ExecuteUbergraph_Player3
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:DefineAdjcentNodes
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:ExecuteUbergraph_StratagemaPawn
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:DefineOppositeNodes
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:ExecuteUbergraph_StratagemaPawn
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:SpawnSquare
+	Function /Game/Blueprints/Pawns/StratagemaPawn.StratagemaPawn_C:ExecuteUbergraph_StratagemaPawn
+
+[2017.03.23-07.30.00:653][227]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=1250.000 Y=1250.000 Z=750.000] for [CubeActor3_C]
+[2017.03.23-07.30.00:654][227]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.30.00:859][240]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.30.01:069][253]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.30.01:279][266]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.30.01:489][279]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.30.01:698][292]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.30.01:908][305]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.30.02:117][318]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.30.02:327][331]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.30.02:537][344]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.30.02:746][357]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.30.02:956][370]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.30.03:166][383]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.30.03:376][396]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.30.03:585][409]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.30.03:795][422]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.30.04:005][435]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.30.04:215][448]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.30.04:424][461]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.30.04:634][474]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.30.04:844][487]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.30.05:053][500]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.30.05:263][513]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.30.05:473][526]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.30.05:682][539]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.30.05:892][552]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.30.06:102][565]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.30.06:311][578]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.30.06:521][591]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.30.06:731][604]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.30.06:941][617]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.30.07:150][630]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.30.07:360][643]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.30.07:570][656]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.30.07:779][669]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.30.07:989][682]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.30.08:199][695]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.30.08:408][708]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.30.08:618][721]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.30.08:828][734]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.30.09:038][747]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.30.09:247][760]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.30.09:457][773]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.30.09:667][786]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.30.09:877][799]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.30.10:086][812]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.30.10:296][825]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.30.10:506][838]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.30.10:715][851]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.30.10:925][864]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.30.11:134][877]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.30.11:344][890]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.30.11:554][903]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array PlayerArray of length 2!
+[2017.03.23-07.30.16:667][220]Closing by request
+[2017.03.23-07.30.16:667][220]LogWindows: FPlatformMisc::RequestExit(0)
+[2017.03.23-07.30.16:668][221]LogMoviePlayer: Shutting down movie player
+[2017.03.23-07.30.17:573][221]LogNet: World NetDriver shutdown IpNetDriver_0 [GameNetDriver]
+[2017.03.23-07.30.17:573][221]LogNet: DestroyNamedNetDriver IpNetDriver_0 [GameNetDriver]
+[2017.03.23-07.30.17:574][221]LogNet: UNetConnection::Cleanup: Closing open connection. [UNetConnection] RemoteAddr: 192.168.1.10:58762, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: StratagemaPlayerController_C_1, Owner: StratagemaPlayerController_C_1
+[2017.03.23-07.30.17:574][221]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 192.168.1.10:58762, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: StratagemaPlayerController_C_1, Owner: StratagemaPlayerController_C_1, Channels: 109, Time: 2017.03.23-07.30.17
+[2017.03.23-07.30.17:574][221]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 192.168.1.10:58762, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: StratagemaPlayerController_C_1, Owner: StratagemaPlayerController_C_1
+[2017.03.23-07.30.17:574][221]LogExit: GameNetDriver IpNetDriver_0 shut down
+[2017.03.23-07.30.17:602][221]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.03.23-07.30.17:608][221]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.03.23-07.30.17:611][221]LogExit: Preparing to exit.
+[2017.03.23-07.30.18:580][221]LogExit: Game engine shut down
+[2017.03.23-07.30.18:648][221]LogObj: Freed 0b from 0 cluster array pools.
+[2017.03.23-07.30.18:648][221]LogExit: Object subsystem successfully closed.
+[2017.03.23-07.30.18:665][221]LogD3D11RHI: Shutdown
+[2017.03.23-07.30.18:665][221]LogD3D11RHI: CleanupD3DDevice
+[2017.03.23-07.30.18:746][221]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.03.23-07.30.18:783][221]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (127)
+[2017.03.23-07.30.18:783][221]LogModuleManager: Shutting down and abandoning module SequenceRecorder (126)
+[2017.03.23-07.30.18:783][221]LogModuleManager: Shutting down and abandoning module AutomationController (125)
+[2017.03.23-07.30.18:783][221]LogModuleManager: Shutting down and abandoning module AutomationWorker (124)
+[2017.03.23-07.30.18:783][221]LogModuleManager: Shutting down and abandoning module Voice (123)
+[2017.03.23-07.30.18:783][221]LogModuleManager: Shutting down and abandoning module GameplayDebugger (122)
+[2017.03.23-07.30.18:783][221]LogModuleManager: Shutting down and abandoning module AITestSuite (121)
+[2017.03.23-07.30.18:783][221]LogModuleManager: Shutting down and abandoning module AIModule (120)
+[2017.03.23-07.30.18:783][221]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (119)
+[2017.03.23-07.30.18:783][221]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (118)
+[2017.03.23-07.30.18:783][221]LogModuleManager: Shutting down and abandoning module Media (117)
+[2017.03.23-07.30.18:783][221]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (116)
+[2017.03.23-07.30.18:783][221]LogModuleManager: Shutting down and abandoning module CharacterAI (115)
+[2017.03.23-07.30.18:783][221]LogModuleManager: Shutting down and abandoning module SessionServices (114)
+[2017.03.23-07.30.18:783][221]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (113)
+[2017.03.23-07.30.18:783][221]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (112)
+[2017.03.23-07.30.18:783][221]LogModuleManager: Shutting down and abandoning module GeometryCache (111)
+[2017.03.23-07.30.18:783][221]LogModuleManager: Shutting down and abandoning module Niagara (110)
+[2017.03.23-07.30.18:783][221]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (109)
+[2017.03.23-07.30.18:783][221]LogModuleManager: Shutting down and abandoning module PortalServices (108)
+[2017.03.23-07.30.18:783][221]LogModuleManager: Shutting down and abandoning module PortalRpc (107)
+[2017.03.23-07.30.18:783][221]LogModuleManager: Shutting down and abandoning module MessagingRpc (106)
+[2017.03.23-07.30.18:783][221]LogModuleManager: Shutting down and abandoning module ProfilerService (105)
+[2017.03.23-07.30.19:022][221]LogModuleManager: Shutting down and abandoning module TaskGraph (104)
+[2017.03.23-07.30.19:022][221]LogModuleManager: Shutting down and abandoning module SlateRemote (103)
+[2017.03.23-07.30.19:023][221]LogModuleManager: Shutting down and abandoning module SteamVRController (102)
+[2017.03.23-07.30.19:023][221]LogModuleManager: Shutting down and abandoning module SteamVR (101)
+[2017.03.23-07.30.19:023][221]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (100)
+[2017.03.23-07.30.19:023][221]LogModuleManager: Shutting down and abandoning module OculusLibrary (99)
+[2017.03.23-07.30.19:023][221]LogModuleManager: Shutting down and abandoning module OculusInput (98)
+[2017.03.23-07.30.19:023][221]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (97)
+[2017.03.23-07.30.19:023][221]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (96)
+[2017.03.23-07.30.19:023][221]LogModuleManager: Shutting down and abandoning module CableComponent (95)
+[2017.03.23-07.30.19:023][221]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (94)
+[2017.03.23-07.30.19:023][221]LogModuleManager: Shutting down and abandoning module HTML5Networking (93)
+[2017.03.23-07.30.19:023][221]LogModuleManager: Shutting down and abandoning module DesktopPlatform (92)
+[2017.03.23-07.30.19:023][221]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (91)
+[2017.03.23-07.30.19:023][221]LogModuleManager: Shutting down and abandoning module HotReload (90)
+[2017.03.23-07.30.19:023][221]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (89)
+[2017.03.23-07.30.19:023][221]LogModuleManager: Shutting down and abandoning module UObjectPlugin (88)
+[2017.03.23-07.30.19:023][221]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (87)
+[2017.03.23-07.30.19:023][221]LogModuleManager: Shutting down and abandoning module SourceControl (86)
+[2017.03.23-07.30.19:023][221]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (85)
+[2017.03.23-07.30.19:023][221]LogModuleManager: Shutting down and abandoning module UdpMessaging (84)
+[2017.03.23-07.30.19:124][221]LogModuleManager: Shutting down and abandoning module TcpMessaging (83)
+[2017.03.23-07.30.19:390][221]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (82)
+[2017.03.23-07.30.19:390][221]LogModuleManager: Shutting down and abandoning module Paper2D (81)
+[2017.03.23-07.30.19:390][221]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (80)
+[2017.03.23-07.30.19:390][221]LogModuleManager: Shutting down and abandoning module WmfMedia (79)
+[2017.03.23-07.30.19:391][221]LogModuleManager: Shutting down and abandoning module MediaAssets (78)
+[2017.03.23-07.30.19:391][221]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (77)
+[2017.03.23-07.30.19:391][221]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (76)
+[2017.03.23-07.30.19:391][221]LogModuleManager: Shutting down and abandoning module VREditor (75)
+[2017.03.23-07.30.19:391][221]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (74)
+[2017.03.23-07.30.19:391][221]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (73)
+[2017.03.23-07.30.19:391][221]LogModuleManager: Shutting down and abandoning module FunctionalTesting (72)
+[2017.03.23-07.30.19:391][221]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (71)
+[2017.03.23-07.30.19:391][221]LogModuleManager: Shutting down and abandoning module Sequencer (70)
+[2017.03.23-07.30.19:391][221]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (69)
+[2017.03.23-07.30.19:391][221]LogModuleManager: Shutting down and abandoning module MessageLog (68)
+[2017.03.23-07.30.19:391][221]LogModuleManager: Shutting down and abandoning module AssetTools (67)
+[2017.03.23-07.30.19:391][221]LogModuleManager: Shutting down and abandoning module UMGEditor (66)
+[2017.03.23-07.30.19:391][221]LogModuleManager: Shutting down and abandoning module UMG (65)
+[2017.03.23-07.30.19:391][221]LogModuleManager: Shutting down and abandoning module SlateReflector (64)
+[2017.03.23-07.30.19:391][221]LogModuleManager: Shutting down and abandoning module Slate (63)
+[2017.03.23-07.30.19:391][221]LogModuleManager: Shutting down and abandoning module EditorStyle (62)
+[2017.03.23-07.30.19:394][221]LogModuleManager: Shutting down and abandoning module Messaging (61)
+[2017.03.23-07.30.19:394][221]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (60)
+[2017.03.23-07.30.19:394][221]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (59)
+[2017.03.23-07.30.19:394][221]LogModuleManager: Shutting down and abandoning module XAudio2 (58)
+[2017.03.23-07.30.19:394][221]LogModuleManager: Shutting down and abandoning module Networking (57)
+[2017.03.23-07.30.19:394][221]LogModuleManager: Shutting down and abandoning module Core (56)
+[2017.03.23-07.30.19:394][221]LogModuleManager: Shutting down and abandoning module KismetCompiler (55)
+[2017.03.23-07.30.19:394][221]LogModuleManager: Shutting down and abandoning module PhysXFormats (54)
+[2017.03.23-07.30.19:394][221]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (53)
+[2017.03.23-07.30.19:394][221]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (52)
+[2017.03.23-07.30.19:394][221]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (51)
+[2017.03.23-07.30.19:394][221]LogModuleManager: Shutting down and abandoning module PropertyEditor (50)
+[2017.03.23-07.30.19:394][221]LogModuleManager: Shutting down and abandoning module MeshUtilities (49)
+[2017.03.23-07.30.19:394][221]LogModuleManager: Shutting down and abandoning module AssetRegistry (48)
+[2017.03.23-07.30.19:394][221]LogModuleManager: Shutting down and abandoning module DerivedDataCache (47)
+[2017.03.23-07.30.19:491][221]LogDerivedDataCache: Shutdown
+[2017.03.23-07.30.19:491][221]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (46)
+[2017.03.23-07.30.19:491][221]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (45)
+[2017.03.23-07.30.19:491][221]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (44)
+[2017.03.23-07.30.19:491][221]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (43)
+[2017.03.23-07.30.19:491][221]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (42)
+[2017.03.23-07.30.19:491][221]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (41)
+[2017.03.23-07.30.19:491][221]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (40)
+[2017.03.23-07.30.19:491][221]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (39)
+[2017.03.23-07.30.19:491][221]LogModuleManager: Shutting down and abandoning module ImageWrapper (38)
+[2017.03.23-07.30.19:491][221]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (37)
+[2017.03.23-07.30.19:491][221]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (36)
+[2017.03.23-07.30.19:491][221]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (35)
+[2017.03.23-07.30.19:491][221]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (34)
+[2017.03.23-07.30.19:491][221]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (33)
+[2017.03.23-07.30.19:491][221]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (32)
+[2017.03.23-07.30.19:491][221]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (31)
+[2017.03.23-07.30.19:491][221]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (30)
+[2017.03.23-07.30.19:492][221]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (29)
+[2017.03.23-07.30.19:492][221]LogModuleManager: Shutting down and abandoning module TargetPlatform (28)
+[2017.03.23-07.30.19:492][221]LogModuleManager: Shutting down and abandoning module InputCore (27)
+[2017.03.23-07.30.19:492][221]LogModuleManager: Shutting down and abandoning module Settings (26)
+[2017.03.23-07.30.19:492][221]LogModuleManager: Shutting down and abandoning module OculusRift (25)
+[2017.03.23-07.30.19:492][221]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (24)
+[2017.03.23-07.30.19:492][221]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (23)
+[2017.03.23-07.30.19:492][221]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2017.03.23-07.30.19:492][221]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2017.03.23-07.30.19:492][221]LogOnline:Display: Unloading online subsystem: NULL
+[2017.03.23-07.30.19:492][221]LogModuleManager: Shutting down and abandoning module SSL (17)
+[2017.03.23-07.30.19:494][221]LogModuleManager: Shutting down and abandoning module HTTP (16)
+[2017.03.23-07.30.19:494][221]LogModuleManager: Shutting down and abandoning module XMPP (15)
+[2017.03.23-07.30.19:494][221]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2017.03.23-07.30.19:494][221]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2017.03.23-07.30.19:494][221]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2017.03.23-07.30.19:494][221]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2017.03.23-07.30.19:495][221]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2017.03.23-07.30.19:495][221]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2017.03.23-07.30.19:495][221]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2017.03.23-07.30.19:495][221]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2017.03.23-07.30.19:495][221]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2017.03.23-07.30.19:495][221]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2017.03.23-07.30.19:495][221]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2017.03.23-07.30.19:495][221]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2017.03.23-07.30.19:495][221]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2017.03.23-07.30.19:495][221]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2017.03.23-07.30.19:498][221]LogExit: Exiting.
+[2017.03.23-07.30.19:500][221]Log file closed, 03/23/17 07:30:19
